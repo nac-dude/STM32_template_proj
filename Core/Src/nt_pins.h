@@ -1,0 +1,27 @@
+#ifndef __PINS_H
+#define __PINS_H
+
+#define PIN_LED_NUCLEO (uint32_t)GPIOA, LL_GPIO_PIN_5, LL_GPIO_MODE_OUTPUT, nt_Output
+
+#define PIN_CH1 (uint32_t)GPIOC, LL_GPIO_PIN_3, LL_GPIO_MODE_OUTPUT, nt_Output
+#define PIN_CH2 (uint32_t)GPIOC, LL_GPIO_PIN_2, LL_GPIO_MODE_OUTPUT, nt_Output
+#define PIN_CH3 (uint32_t)GPIOA, LL_GPIO_PIN_4, LL_GPIO_MODE_OUTPUT, nt_Output
+
+#define PIN_BTN_NUCLEO (uint32_t)GPIOC, LL_GPIO_PIN_13, LL_GPIO_MODE_INPUT, nt_Input
+#define PIN_BTN_PROTO (uint32_t)GPIOB, LL_GPIO_PIN_7, LL_GPIO_MODE_INPUT, nt_Input
+
+#define PIN_LCD_RS (uint32_t)GPIOC, LL_GPIO_PIN_8, LL_GPIO_MODE_OUTPUT, nt_Output
+#define PIN_LCD_RW (uint32_t)GPIOC, LL_GPIO_PIN_6, LL_GPIO_MODE_OUTPUT, nt_Output
+#define PIN_LCD_E (uint32_t)GPIOC, LL_GPIO_PIN_5, LL_GPIO_MODE_OUTPUT, nt_Output
+#define PIN_LCD_DB7 (uint32_t)GPIOA, LL_GPIO_PIN_12, LL_GPIO_MODE_OUTPUT, nt_Output
+#define PIN_LCD_DB6 (uint32_t)GPIOA, LL_GPIO_PIN_11, LL_GPIO_MODE_OUTPUT, nt_Output
+#define PIN_LCD_DB5 (uint32_t)GPIOB, LL_GPIO_PIN_12, LL_GPIO_MODE_OUTPUT, nt_Output
+#define PIN_LCD_DB4 (uint32_t)GPIOB, LL_GPIO_PIN_11, LL_GPIO_MODE_OUTPUT, nt_Output
+
+#define PIN_ENC1_A (uint32_t)GPIOB, LL_GPIO_PIN_13, LL_GPIO_MODE_INPUT, nt_Input
+#define PIN_ENC1_B (uint32_t)GPIOB, LL_GPIO_PIN_14, LL_GPIO_MODE_INPUT, nt_Input
+
+#define PIN_ENC2_A (uint32_t)GPIOB, LL_GPIO_PIN_1, LL_GPIO_MODE_INPUT, nt_Input
+#define PIN_ENC2_B (uint32_t)GPIOB, LL_GPIO_PIN_15, LL_GPIO_MODE_INPUT, nt_Input
+
+#endif /* __PINS_H */

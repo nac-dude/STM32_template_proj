@@ -1,0 +1,5 @@
+{
+    "key": "ctrl+č+q",
+    "command": "workbench.action.tasks.runTask",
+    "args": "CubeProg: Flash project (SWD)"
+}
