@@ -7,7 +7,7 @@ uint8_t nt_debounceBtn(nt_btn_t *btn, uint32_t mstime)
   uint8_t current_state;
 
   current_state = nt_readPin(btn->pin_args->pin);
-
+  //! add also EAGER
   // DEFER
   if (current_state != btn->state_last)
   {
