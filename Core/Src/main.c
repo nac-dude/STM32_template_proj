@@ -60,6 +60,8 @@ nt_TimerDefStruct_t timer_CH3;
 bool btn_state, btn_last_state = true;
 volatile int i = 1;
 
+//first commit from Lj machine
+
 int main(void)
 {
   bool system_success = nt_systemClock_init(nt_HSE, 8000000, &nt_clock_init);
