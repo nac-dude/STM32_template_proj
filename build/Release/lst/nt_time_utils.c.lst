@@ -14,7 +14,7 @@
   14              		.text
   15              	.Ltext0:
   16              		.cfi_sections	.debug_frame
-  17              		.file 1 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_
+  17              		.file 1 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_p
   18              		.section	.text.nt_waitUs,"ax",%progbits
   19              		.align	1
   20              		.global	nt_waitUs
@@ -24,20 +24,20 @@
   25              	nt_waitUs:
   26              	.LVL0:
   27              	.LFB127:
-   1:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** 
-   2:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** #include <stdint.h>
-   3:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** #include <stdbool.h>
-   4:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** 
-   5:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** #include "stm32f1xx_ll_gpio.h"
-   6:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** 
-   7:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** #include "lwprintf/lwprintf.h"
-   8:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** 
-   9:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** #include "nt_gpio.h"
-  10:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** #include "nt_time.h"
-  11:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** #include "nt_time_utils.h"
-  12:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** 
-  13:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** void nt_waitUs(uint32_t Us)
-  14:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** {
+   1:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** 
+   2:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** #include <stdint.h>
+   3:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** #include <stdbool.h>
+   4:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** 
+   5:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** #include "stm32f1xx_ll_gpio.h"
+   6:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** 
+   7:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** #include "lwprintf/lwprintf.h"
+   8:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** 
+   9:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** #include "nt_gpio.h"
+  10:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** #include "nt_time.h"
+  11:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** #include "nt_time_utils.h"
+  12:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** 
+  13:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** void nt_waitUs(uint32_t Us)
+  14:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** {
   28              		.loc 1 14 1 view -0
   29              		.cfi_startproc
   30              		@ args = 0, pretend = 0, frame = 8
@@ -46,32 +46,32 @@
   33              		.loc 1 14 1 is_stmt 0 view .LVU1
   34 0000 82B0     		sub	sp, sp, #8
   35              		.cfi_def_cfa_offset 8
-  15:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   volatile int i = (Us * 7);
+  15:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   volatile int i = (Us * 7);
   36              		.loc 1 15 3 is_stmt 1 view .LVU2
   37              		.loc 1 15 24 is_stmt 0 view .LVU3
   38 0002 C0EBC000 		rsb	r0, r0, r0, lsl #3
   39              	.LVL1:
   40              		.loc 1 15 16 view .LVU4
   41 0006 0190     		str	r0, [sp, #4]
-  16:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   while (i--)
+  16:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   while (i--)
   42              		.loc 1 16 3 is_stmt 1 view .LVU5
   43              	.L2:
-  17:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   {
-  18:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   }
+  17:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   {
+  18:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   }
   44              		.loc 1 18 3 discriminator 1 view .LVU6
-  16:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   while (i--)
+  16:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   while (i--)
   45              		.loc 1 16 10 discriminator 1 view .LVU7
-  16:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   while (i--)
+  16:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   while (i--)
   46              		.loc 1 16 11 is_stmt 0 discriminator 1 view .LVU8
   47 0008 019B     		ldr	r3, [sp, #4]
   48 000a 5A1E     		subs	r2, r3, #1
   49 000c 0192     		str	r2, [sp, #4]
-  16:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   while (i--)
+  16:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   while (i--)
   50              		.loc 1 16 10 discriminator 1 view .LVU9
   51 000e 002B     		cmp	r3, #0
   52 0010 FAD1     		bne	.L2
-  19:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   return;
-  20:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** }
+  19:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   return;
+  20:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** }
   53              		.loc 1 20 1 view .LVU10
   54 0012 02B0     		add	sp, sp, #8
   55              		.cfi_def_cfa_offset 0
@@ -88,9 +88,9 @@
   68              	nt_delayCheckUs:
   69              	.LVL2:
   70              	.LFB128:
-  21:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** 
-  22:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** bool nt_delayCheckUs(uint32_t *last, uint32_t delay)
-  23:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** {
+  21:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** 
+  22:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** bool nt_delayCheckUs(uint32_t *last, uint32_t delay)
+  23:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** {
   71              		.loc 1 23 1 is_stmt 1 view -0
   72              		.cfi_startproc
   73              		@ args = 0, pretend = 0, frame = 0
@@ -104,96 +104,96 @@
   81              		.cfi_offset 14, -4
   82 0002 0446     		mov	r4, r0
   83 0004 0D46     		mov	r5, r1
-  24:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   uint32_t time = nt_timeGetUs32();
+  24:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   uint32_t time = nt_timeGetUs32();
   84              		.loc 1 24 3 is_stmt 1 view .LVU13
   85              		.loc 1 24 19 is_stmt 0 view .LVU14
   86 0006 FFF7FEFF 		bl	nt_timeGetUs32
   87              	.LVL3:
-  25:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   if (time >= *last)
+  25:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   if (time >= *last)
   88              		.loc 1 25 3 is_stmt 1 view .LVU15
   89              		.loc 1 25 15 is_stmt 0 view .LVU16
   90 000a 2368     		ldr	r3, [r4]
   91              		.loc 1 25 6 view .LVU17
   92 000c 8342     		cmp	r3, r0
   93 000e 07D8     		bhi	.L5
-  26:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   {
-  27:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     if ((time - *last) >= delay)
+  26:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   {
+  27:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     if ((time - *last) >= delay)
   94              		.loc 1 27 5 is_stmt 1 view .LVU18
   95              		.loc 1 27 15 is_stmt 0 view .LVU19
   96 0010 C31A     		subs	r3, r0, r3
   97              		.loc 1 27 8 view .LVU20
   98 0012 AB42     		cmp	r3, r5
   99 0014 01D2     		bcs	.L10
-  28:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     {
-  29:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       *last = time;
-  30:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       return true;
-  31:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     }
-  32:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   }
-  33:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   else
-  34:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   {
-  35:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     if ((0xFFFFFFFF - (*last - time)) >= delay)
-  36:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     {
-  37:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       *last = time;
-  38:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       return true;
-  39:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     }
-  40:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   }
-  41:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   return false;
+  28:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     {
+  29:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       *last = time;
+  30:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       return true;
+  31:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     }
+  32:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   }
+  33:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   else
+  34:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   {
+  35:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     if ((0xFFFFFFFF - (*last - time)) >= delay)
+  36:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     {
+  37:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       *last = time;
+  38:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       return true;
+  39:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     }
+  40:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   }
+  41:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   return false;
  100              		.loc 1 41 10 view .LVU21
  101 0016 0020     		movs	r0, #0
  102              	.LVL4:
  103              	.L6:
-  42:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** }
+  42:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** }
  104              		.loc 1 42 1 view .LVU22
  105 0018 38BD     		pop	{r3, r4, r5, pc}
  106              	.LVL5:
  107              	.L10:
-  29:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       return true;
+  29:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       return true;
  108              		.loc 1 29 7 is_stmt 1 view .LVU23
-  29:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       return true;
+  29:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       return true;
  109              		.loc 1 29 13 is_stmt 0 view .LVU24
  110 001a 2060     		str	r0, [r4]
-  30:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     }
+  30:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     }
  111              		.loc 1 30 7 is_stmt 1 view .LVU25
-  30:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     }
+  30:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     }
  112              		.loc 1 30 14 is_stmt 0 view .LVU26
  113 001c 0120     		movs	r0, #1
  114              	.LVL6:
-  30:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     }
+  30:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     }
  115              		.loc 1 30 14 view .LVU27
  116 001e FBE7     		b	.L6
  117              	.LVL7:
  118              	.L5:
-  35:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     {
+  35:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     {
  119              		.loc 1 35 5 is_stmt 1 view .LVU28
-  35:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     {
+  35:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     {
  120              		.loc 1 35 21 is_stmt 0 view .LVU29
  121 0020 C31A     		subs	r3, r0, r3
  122 0022 013B     		subs	r3, r3, #1
-  35:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     {
+  35:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     {
  123              		.loc 1 35 8 view .LVU30
  124 0024 AB42     		cmp	r3, r5
  125 0026 01D2     		bcs	.L11
-  41:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** }
+  41:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** }
  126              		.loc 1 41 10 view .LVU31
  127 0028 0020     		movs	r0, #0
  128              	.LVL8:
-  41:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** }
+  41:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** }
  129              		.loc 1 41 10 view .LVU32
  130 002a F5E7     		b	.L6
  131              	.LVL9:
  132              	.L11:
-  37:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       return true;
+  37:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       return true;
  133              		.loc 1 37 7 is_stmt 1 view .LVU33
-  37:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       return true;
+  37:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       return true;
  134              		.loc 1 37 13 is_stmt 0 view .LVU34
  135 002c 2060     		str	r0, [r4]
-  38:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     }
+  38:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     }
  136              		.loc 1 38 7 is_stmt 1 view .LVU35
-  38:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     }
+  38:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     }
  137              		.loc 1 38 14 is_stmt 0 view .LVU36
  138 002e 0120     		movs	r0, #1
  139              	.LVL10:
-  38:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     }
+  38:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     }
  140              		.loc 1 38 14 view .LVU37
  141 0030 F2E7     		b	.L6
  142              		.cfi_endproc
@@ -207,9 +207,9 @@
  152              	nt_delayCheckUs_noUpdate:
  153              	.LVL11:
  154              	.LFB129:
-  43:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** 
-  44:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** bool nt_delayCheckUs_noUpdate(uint32_t last, uint32_t delay)
-  45:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** {
+  43:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** 
+  44:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** bool nt_delayCheckUs_noUpdate(uint32_t last, uint32_t delay)
+  45:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** {
  155              		.loc 1 45 1 is_stmt 1 view -0
  156              		.cfi_startproc
  157              		@ args = 0, pretend = 0, frame = 0
@@ -223,18 +223,18 @@
  165              		.cfi_offset 14, -4
  166 0002 0446     		mov	r4, r0
  167 0004 0D46     		mov	r5, r1
-  46:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   uint32_t time = nt_timeGetUs32();
+  46:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   uint32_t time = nt_timeGetUs32();
  168              		.loc 1 46 3 is_stmt 1 view .LVU40
  169              		.loc 1 46 19 is_stmt 0 view .LVU41
  170 0006 FFF7FEFF 		bl	nt_timeGetUs32
  171              	.LVL12:
-  47:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   if (time >= last)
+  47:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   if (time >= last)
  172              		.loc 1 47 3 is_stmt 1 view .LVU42
  173              		.loc 1 47 6 is_stmt 0 view .LVU43
  174 000a A042     		cmp	r0, r4
  175 000c 04D3     		bcc	.L13
-  48:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   {
-  49:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     if ((time - last) >= delay)
+  48:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   {
+  49:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     if ((time - last) >= delay)
  176              		.loc 1 49 5 is_stmt 1 view .LVU44
  177              		.loc 1 49 15 is_stmt 0 view .LVU45
  178 000e 001B     		subs	r0, r0, r4
@@ -242,50 +242,50 @@
  180              		.loc 1 49 8 view .LVU46
  181 0010 A842     		cmp	r0, r5
  182 0012 07D2     		bcs	.L15
-  50:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     {
-  51:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       return true;
-  52:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     }
-  53:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   }
-  54:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   else
-  55:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   {
-  56:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     if ((0xFFFFFFFF - (last - time)) >= delay)
-  57:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     {
-  58:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       return true;
-  59:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     }
-  60:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   } 
-  61:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   return false;
+  50:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     {
+  51:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       return true;
+  52:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     }
+  53:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   }
+  54:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   else
+  55:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   {
+  56:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     if ((0xFFFFFFFF - (last - time)) >= delay)
+  57:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     {
+  58:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       return true;
+  59:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     }
+  60:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   } 
+  61:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   return false;
  183              		.loc 1 61 10 view .LVU47
  184 0014 0020     		movs	r0, #0
  185              	.L14:
-  62:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** }
+  62:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** }
  186              		.loc 1 62 1 view .LVU48
  187 0016 38BD     		pop	{r3, r4, r5, pc}
  188              	.LVL14:
  189              	.L13:
-  56:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     {
+  56:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     {
  190              		.loc 1 56 5 is_stmt 1 view .LVU49
-  56:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     {
+  56:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     {
  191              		.loc 1 56 21 is_stmt 0 view .LVU50
  192 0018 001B     		subs	r0, r0, r4
  193              	.LVL15:
-  56:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     {
+  56:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     {
  194              		.loc 1 56 21 view .LVU51
  195 001a 0138     		subs	r0, r0, #1
-  56:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     {
+  56:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     {
  196              		.loc 1 56 8 view .LVU52
  197 001c A842     		cmp	r0, r5
  198 001e 03D2     		bcs	.L16
-  61:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** }
+  61:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** }
  199              		.loc 1 61 10 view .LVU53
  200 0020 0020     		movs	r0, #0
  201 0022 F8E7     		b	.L14
  202              	.L15:
-  51:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     }
+  51:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     }
  203              		.loc 1 51 14 view .LVU54
  204 0024 0120     		movs	r0, #1
  205 0026 F6E7     		b	.L14
  206              	.L16:
-  58:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     }
+  58:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     }
  207              		.loc 1 58 14 view .LVU55
  208 0028 0120     		movs	r0, #1
  209 002a F4E7     		b	.L14
@@ -300,19 +300,19 @@
  220              	nt_timerInitUs:
  221              	.LVL16:
  222              	.LFB130:
-  63:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** 
-  64:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** void nt_timerInitUs(nt_TimerDefStruct_t *toggle_def, uint32_t t0, uint32_t t1, uint32_t t2, nt_time
-  65:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** {
+  63:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** 
+  64:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** void nt_timerInitUs(nt_TimerDefStruct_t *toggle_def, uint32_t t0, uint32_t t1, uint32_t t2, nt_time
+  65:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** {
  223              		.loc 1 65 1 is_stmt 1 view -0
  224              		.cfi_startproc
  225              		@ args = 4, pretend = 0, frame = 0
  226              		@ frame_needed = 0, uses_anonymous_args = 0
-  66:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   if (t0 < t1 && t1 < t2)
+  66:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   if (t0 < t1 && t1 < t2)
  227              		.loc 1 66 3 view .LVU57
  228              		.loc 1 66 6 is_stmt 0 view .LVU58
  229 0000 9142     		cmp	r1, r2
  230 0002 14D2     		bcs	.L21
-  65:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   if (t0 < t1 && t1 < t2)
+  65:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   if (t0 < t1 && t1 < t2)
  231              		.loc 1 65 1 discriminator 1 view .LVU59
  232 0004 F8B5     		push	{r3, r4, r5, r6, r7, lr}
  233              		.cfi_def_cfa_offset 24
@@ -331,61 +331,61 @@
  246 0010 00D3     		bcc	.L24
  247              	.LVL17:
  248              	.L18:
-  67:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   {
-  68:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     toggle_def->timestamp = nt_timeInitUs32();
-  69:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     toggle_def->time_On = t0;
-  70:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     toggle_def->time_Off = t1;
-  71:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     toggle_def->time_Max = t2;
-  72:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** 
-  73:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     toggle_def->timer_callback_fn = asymm_CB_fn;
-  74:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** 
-  75:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     toggle_def->state = stateOff;
-  76:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     toggle_def->stateTime = 0;
-  77:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   }
-  78:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** }
+  67:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   {
+  68:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     toggle_def->timestamp = nt_timeInitUs32();
+  69:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     toggle_def->time_On = t0;
+  70:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     toggle_def->time_Off = t1;
+  71:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     toggle_def->time_Max = t2;
+  72:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** 
+  73:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     toggle_def->timer_callback_fn = asymm_CB_fn;
+  74:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** 
+  75:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     toggle_def->state = stateOff;
+  76:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     toggle_def->stateTime = 0;
+  77:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   }
+  78:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** }
  249              		.loc 1 78 1 view .LVU61
  250 0012 F8BD     		pop	{r3, r4, r5, r6, r7, pc}
  251              	.LVL18:
  252              	.L24:
-  68:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     toggle_def->time_On = t0;
+  68:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     toggle_def->time_On = t0;
  253              		.loc 1 68 5 is_stmt 1 view .LVU62
-  68:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     toggle_def->time_On = t0;
+  68:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     toggle_def->time_On = t0;
  254              		.loc 1 68 29 is_stmt 0 view .LVU63
  255 0014 FFF7FEFF 		bl	nt_timeInitUs32
  256              	.LVL19:
-  68:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     toggle_def->time_On = t0;
+  68:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     toggle_def->time_On = t0;
  257              		.loc 1 68 27 view .LVU64
  258 0018 3060     		str	r0, [r6]
-  69:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     toggle_def->time_Off = t1;
+  69:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     toggle_def->time_Off = t1;
  259              		.loc 1 69 5 is_stmt 1 view .LVU65
-  69:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     toggle_def->time_Off = t1;
+  69:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     toggle_def->time_Off = t1;
  260              		.loc 1 69 25 is_stmt 0 view .LVU66
  261 001a 7560     		str	r5, [r6, #4]
-  70:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     toggle_def->time_Max = t2;
+  70:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     toggle_def->time_Max = t2;
  262              		.loc 1 70 5 is_stmt 1 view .LVU67
-  70:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     toggle_def->time_Max = t2;
+  70:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     toggle_def->time_Max = t2;
  263              		.loc 1 70 26 is_stmt 0 view .LVU68
  264 001c B460     		str	r4, [r6, #8]
-  71:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** 
+  71:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** 
  265              		.loc 1 71 5 is_stmt 1 view .LVU69
-  71:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** 
+  71:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** 
  266              		.loc 1 71 26 is_stmt 0 view .LVU70
  267 001e F760     		str	r7, [r6, #12]
-  73:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** 
+  73:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** 
  268              		.loc 1 73 5 is_stmt 1 view .LVU71
-  73:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** 
+  73:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** 
  269              		.loc 1 73 35 is_stmt 0 view .LVU72
  270 0020 069B     		ldr	r3, [sp, #24]
  271 0022 B361     		str	r3, [r6, #24]
-  75:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     toggle_def->stateTime = 0;
+  75:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     toggle_def->stateTime = 0;
  272              		.loc 1 75 5 is_stmt 1 view .LVU73
-  75:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     toggle_def->stateTime = 0;
+  75:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     toggle_def->stateTime = 0;
  273              		.loc 1 75 23 is_stmt 0 view .LVU74
  274 0024 0223     		movs	r3, #2
  275 0026 3374     		strb	r3, [r6, #16]
-  76:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   }
+  76:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   }
  276              		.loc 1 76 5 is_stmt 1 view .LVU75
-  76:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   }
+  76:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   }
  277              		.loc 1 76 27 is_stmt 0 view .LVU76
  278 0028 0023     		movs	r3, #0
  279 002a 7361     		str	r3, [r6, #20]
@@ -413,9 +413,9 @@
  303              	nt_timerUs:
  304              	.LVL21:
  305              	.LFB131:
-  79:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** 
-  80:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** void nt_timerUs(nt_TimerDefStruct_t *toggle_def)
-  81:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** {
+  79:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** 
+  80:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** void nt_timerUs(nt_TimerDefStruct_t *toggle_def)
+  81:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** {
  306              		.loc 1 81 1 is_stmt 1 view -0
  307              		.cfi_startproc
  308              		@ args = 0, pretend = 0, frame = 0
@@ -426,8 +426,8 @@
  313              		.cfi_offset 4, -8
  314              		.cfi_offset 14, -4
  315 0002 0446     		mov	r4, r0
-  82:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** 
-  83:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   if (nt_delayCheckUs_noUpdate((toggle_def->timestamp), toggle_def->stateTime))
+  82:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** 
+  83:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   if (nt_delayCheckUs_noUpdate((toggle_def->timestamp), toggle_def->stateTime))
  316              		.loc 1 83 3 is_stmt 1 view .LVU81
  317              		.loc 1 83 7 is_stmt 0 view .LVU82
  318 0004 4169     		ldr	r1, [r0, #20]
@@ -438,8 +438,8 @@
  323              	.LVL23:
  324              		.loc 1 83 6 view .LVU84
  325 000c 40B1     		cbz	r0, .L25
-  84:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   {
-  85:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     switch (toggle_def->state)
+  84:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   {
+  85:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     switch (toggle_def->state)
  326              		.loc 1 85 5 is_stmt 1 view .LVU85
  327              		.loc 1 85 23 is_stmt 0 view .LVU86
  328 000e 237C     		ldrb	r3, [r4, #16]	@ zero_extendqisi2
@@ -450,34 +450,34 @@
  333 0016 0ED0     		beq	.L28
  334 0018 1BB1     		cbz	r3, .L31
  335              	.L29:
-  86:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     {
-  87:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     case statePre:
-  88:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     {
-  89:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       toggle_def->state = stateOn;
-  90:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       toggle_def->stateTime = toggle_def->time_Off;
-  91:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       break;
-  92:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     }
-  93:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** 
-  94:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     case stateOn:
-  95:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     {
-  96:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       toggle_def->state = stateOff;
-  97:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       toggle_def->stateTime = toggle_def->time_Max;
-  98:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       break;
-  99:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     }
- 100:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** 
- 101:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     case stateOff:
- 102:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     {
- 103:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       toggle_def->state = statePre;
- 104:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       toggle_def->stateTime = toggle_def->time_On;
- 105:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       toggle_def->timestamp = nt_timeGetUs32();
- 106:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       break;
- 107:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     }
- 108:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** 
- 109:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     default:
- 110:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       break;
- 111:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     }
- 112:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** 
- 113:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     toggle_def->timer_callback_fn(toggle_def->state);
+  86:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     {
+  87:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     case statePre:
+  88:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     {
+  89:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       toggle_def->state = stateOn;
+  90:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       toggle_def->stateTime = toggle_def->time_Off;
+  91:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       break;
+  92:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     }
+  93:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** 
+  94:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     case stateOn:
+  95:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     {
+  96:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       toggle_def->state = stateOff;
+  97:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       toggle_def->stateTime = toggle_def->time_Max;
+  98:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       break;
+  99:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     }
+ 100:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** 
+ 101:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     case stateOff:
+ 102:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     {
+ 103:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       toggle_def->state = statePre;
+ 104:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       toggle_def->stateTime = toggle_def->time_On;
+ 105:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       toggle_def->timestamp = nt_timeGetUs32();
+ 106:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       break;
+ 107:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     }
+ 108:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** 
+ 109:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     default:
+ 110:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       break;
+ 111:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     }
+ 112:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** 
+ 113:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     toggle_def->timer_callback_fn(toggle_def->state);
  336              		.loc 1 113 5 is_stmt 1 view .LVU88
  337              		.loc 1 113 15 is_stmt 0 view .LVU89
  338 001a A369     		ldr	r3, [r4, #24]
@@ -486,72 +486,72 @@
  341 001e 9847     		blx	r3
  342              	.LVL24:
  343              	.L25:
- 114:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****   }
- 115:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c **** }
+ 114:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****   }
+ 115:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c **** }
  344              		.loc 1 115 1 view .LVU91
  345 0020 10BD     		pop	{r4, pc}
  346              	.LVL25:
  347              	.L31:
-  89:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       toggle_def->stateTime = toggle_def->time_Off;
+  89:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       toggle_def->stateTime = toggle_def->time_Off;
  348              		.loc 1 89 7 is_stmt 1 view .LVU92
-  89:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       toggle_def->stateTime = toggle_def->time_Off;
+  89:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       toggle_def->stateTime = toggle_def->time_Off;
  349              		.loc 1 89 25 is_stmt 0 view .LVU93
  350 0022 0123     		movs	r3, #1
  351 0024 2374     		strb	r3, [r4, #16]
-  90:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       break;
+  90:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       break;
  352              		.loc 1 90 7 is_stmt 1 view .LVU94
-  90:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       break;
+  90:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       break;
  353              		.loc 1 90 41 is_stmt 0 view .LVU95
  354 0026 A368     		ldr	r3, [r4, #8]
-  90:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       break;
+  90:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       break;
  355              		.loc 1 90 29 view .LVU96
  356 0028 6361     		str	r3, [r4, #20]
-  91:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     }
+  91:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     }
  357              		.loc 1 91 7 is_stmt 1 view .LVU97
  358 002a F6E7     		b	.L29
  359              	.L27:
-  96:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       toggle_def->stateTime = toggle_def->time_Max;
+  96:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       toggle_def->stateTime = toggle_def->time_Max;
  360              		.loc 1 96 7 view .LVU98
-  96:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       toggle_def->stateTime = toggle_def->time_Max;
+  96:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       toggle_def->stateTime = toggle_def->time_Max;
  361              		.loc 1 96 25 is_stmt 0 view .LVU99
  362 002c 0223     		movs	r3, #2
  363 002e 2374     		strb	r3, [r4, #16]
-  97:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       break;
+  97:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       break;
  364              		.loc 1 97 7 is_stmt 1 view .LVU100
-  97:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       break;
+  97:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       break;
  365              		.loc 1 97 41 is_stmt 0 view .LVU101
  366 0030 E368     		ldr	r3, [r4, #12]
-  97:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       break;
+  97:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       break;
  367              		.loc 1 97 29 view .LVU102
  368 0032 6361     		str	r3, [r4, #20]
-  98:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     }
+  98:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     }
  369              		.loc 1 98 7 is_stmt 1 view .LVU103
  370 0034 F1E7     		b	.L29
  371              	.L28:
- 103:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       toggle_def->stateTime = toggle_def->time_On;
+ 103:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       toggle_def->stateTime = toggle_def->time_On;
  372              		.loc 1 103 7 view .LVU104
- 103:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       toggle_def->stateTime = toggle_def->time_On;
+ 103:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       toggle_def->stateTime = toggle_def->time_On;
  373              		.loc 1 103 25 is_stmt 0 view .LVU105
  374 0036 0023     		movs	r3, #0
  375 0038 2374     		strb	r3, [r4, #16]
- 104:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       toggle_def->timestamp = nt_timeGetUs32();
+ 104:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       toggle_def->timestamp = nt_timeGetUs32();
  376              		.loc 1 104 7 is_stmt 1 view .LVU106
- 104:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       toggle_def->timestamp = nt_timeGetUs32();
+ 104:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       toggle_def->timestamp = nt_timeGetUs32();
  377              		.loc 1 104 41 is_stmt 0 view .LVU107
  378 003a 6368     		ldr	r3, [r4, #4]
- 104:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       toggle_def->timestamp = nt_timeGetUs32();
+ 104:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       toggle_def->timestamp = nt_timeGetUs32();
  379              		.loc 1 104 29 view .LVU108
  380 003c 6361     		str	r3, [r4, #20]
- 105:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       break;
+ 105:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       break;
  381              		.loc 1 105 7 is_stmt 1 view .LVU109
- 105:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       break;
+ 105:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       break;
  382              		.loc 1 105 31 is_stmt 0 view .LVU110
  383 003e FFF7FEFF 		bl	nt_timeGetUs32
  384              	.LVL26:
- 105:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****       break;
+ 105:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****       break;
  385              		.loc 1 105 29 view .LVU111
  386 0042 2060     		str	r0, [r4]
- 106:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_time_utils.c ****     }
+ 106:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_time_utils.c ****     }
  387              		.loc 1 106 7 is_stmt 1 view .LVU112
  388 0044 E9E7     		b	.L29
  389              		.cfi_endproc
@@ -560,5 +560,5 @@
  393              	.Letext0:
  394              		.file 2 "C:\\ST\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/..
  395              		.file 3 "C:\\ST\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/..
- 396              		.file 4 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_
- 397              		.file 5 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_
+ 396              		.file 4 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_p
+ 397              		.file 5 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_p

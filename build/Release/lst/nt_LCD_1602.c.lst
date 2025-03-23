@@ -14,7 +14,7 @@
   14              		.text
   15              	.Ltext0:
   16              		.cfi_sections	.debug_frame
-  17              		.file 1 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_
+  17              		.file 1 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_p
   18              		.section	.text.nt_LCD_pinInit,"ax",%progbits
   19              		.align	1
   20              		.global	nt_LCD_pinInit
@@ -23,26 +23,26 @@
   23              		.thumb_func
   25              	nt_LCD_pinInit:
   26              	.LFB127:
-   1:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
-   2:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** #include <string.h>
-   3:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
-   4:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** #include "stm32f1xx_ll_gpio.h"
-   5:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** #include "nt_time_utils.h"
-   6:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** #include "nt_pins.h"
-   7:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** #include "nt_gpio.h"
-   8:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
-   9:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** #include "nt_LCD_1602.h"
-  10:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
-  11:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** static nt_PinDefStruct_t pin_RS;
-  12:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** static nt_PinDefStruct_t pin_RW;
-  13:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** static nt_PinDefStruct_t pin_Enable;
-  14:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** static nt_PinDefStruct_t pin_DB7;
-  15:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** static nt_PinDefStruct_t pin_DB6;
-  16:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** static nt_PinDefStruct_t pin_DB5;
-  17:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** static nt_PinDefStruct_t pin_DB4;
-  18:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
-  19:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** void nt_LCD_pinInit()
-  20:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** {
+   1:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+   2:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** #include <string.h>
+   3:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+   4:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** #include "stm32f1xx_ll_gpio.h"
+   5:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** #include "nt_time_utils.h"
+   6:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** #include "nt_pins.h"
+   7:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** #include "nt_gpio.h"
+   8:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+   9:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** #include "nt_LCD_1602.h"
+  10:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+  11:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** static nt_PinDefStruct_t pin_RS;
+  12:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** static nt_PinDefStruct_t pin_RW;
+  13:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** static nt_PinDefStruct_t pin_Enable;
+  14:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** static nt_PinDefStruct_t pin_DB7;
+  15:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** static nt_PinDefStruct_t pin_DB6;
+  16:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** static nt_PinDefStruct_t pin_DB5;
+  17:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** static nt_PinDefStruct_t pin_DB4;
+  18:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+  19:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** void nt_LCD_pinInit()
+  20:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** {
   27              		.loc 1 20 1 view -0
   28              		.cfi_startproc
   29              		@ args = 0, pretend = 0, frame = 0
@@ -56,7 +56,7 @@
   37              		.cfi_offset 14, -4
   38 0002 83B0     		sub	sp, sp, #12
   39              		.cfi_def_cfa_offset 32
-  21:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_gpioPinInit(&pin_RS, PIN_LCD_RS);
+  21:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_gpioPinInit(&pin_RS, PIN_LCD_RS);
   40              		.loc 1 21 5 view .LVU1
   41 0004 1E4D     		ldr	r5, .L3
   42 0006 0224     		movs	r4, #2
@@ -67,7 +67,7 @@
   47 0010 1D48     		ldr	r0, .L3+8
   48 0012 FFF7FEFF 		bl	nt_gpioPinInit
   49              	.LVL0:
-  22:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_gpioPinInit(&pin_RW, PIN_LCD_RW);
+  22:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_gpioPinInit(&pin_RW, PIN_LCD_RW);
   50              		.loc 1 22 5 view .LVU2
   51 0016 0094     		str	r4, [sp]
   52 0018 0123     		movs	r3, #1
@@ -76,7 +76,7 @@
   55 0020 1A48     		ldr	r0, .L3+12
   56 0022 FFF7FEFF 		bl	nt_gpioPinInit
   57              	.LVL1:
-  23:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_gpioPinInit(&pin_Enable, PIN_LCD_E);
+  23:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_gpioPinInit(&pin_Enable, PIN_LCD_E);
   58              		.loc 1 23 5 view .LVU3
   59 0026 0094     		str	r4, [sp]
   60 0028 0123     		movs	r3, #1
@@ -85,7 +85,7 @@
   63 0030 1748     		ldr	r0, .L3+16
   64 0032 FFF7FEFF 		bl	nt_gpioPinInit
   65              	.LVL2:
-  24:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_gpioPinInit(&pin_DB7, PIN_LCD_DB7);
+  24:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_gpioPinInit(&pin_DB7, PIN_LCD_DB7);
   66              		.loc 1 24 5 view .LVU4
   67 0036 174F     		ldr	r7, .L3+20
   68 0038 A5F50065 		sub	r5, r5, #2048
@@ -96,7 +96,7 @@
   73 0044 1448     		ldr	r0, .L3+24
   74 0046 FFF7FEFF 		bl	nt_gpioPinInit
   75              	.LVL3:
-  25:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_gpioPinInit(&pin_DB6, PIN_LCD_DB6);
+  25:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_gpioPinInit(&pin_DB6, PIN_LCD_DB6);
   76              		.loc 1 25 5 view .LVU5
   77 004a 144E     		ldr	r6, .L3+28
   78 004c 0094     		str	r4, [sp]
@@ -106,7 +106,7 @@
   82 0054 1248     		ldr	r0, .L3+32
   83 0056 FFF7FEFF 		bl	nt_gpioPinInit
   84              	.LVL4:
-  26:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_gpioPinInit(&pin_DB5, PIN_LCD_DB5);
+  26:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_gpioPinInit(&pin_DB5, PIN_LCD_DB5);
   85              		.loc 1 26 5 view .LVU6
   86 005a 05F58065 		add	r5, r5, #1024
   87 005e 0094     		str	r4, [sp]
@@ -116,7 +116,7 @@
   91 0066 0F48     		ldr	r0, .L3+36
   92 0068 FFF7FEFF 		bl	nt_gpioPinInit
   93              	.LVL5:
-  27:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_gpioPinInit(&pin_DB4, PIN_LCD_DB4);
+  27:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_gpioPinInit(&pin_DB4, PIN_LCD_DB4);
   94              		.loc 1 27 5 view .LVU7
   95 006c 0094     		str	r4, [sp]
   96 006e 0123     		movs	r3, #1
@@ -125,7 +125,7 @@
   99 0074 0C48     		ldr	r0, .L3+40
  100 0076 FFF7FEFF 		bl	nt_gpioPinInit
  101              	.LVL6:
-  28:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** }
+  28:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** }
  102              		.loc 1 28 1 is_stmt 0 view .LVU8
  103 007a 03B0     		add	sp, sp, #12
  104              		.cfi_def_cfa_offset 20
@@ -156,9 +156,9 @@
  131              	nt_LCD_SendData:
  132              	.LVL7:
  133              	.LFB128:
-  29:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
-  30:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** void nt_LCD_SendData(const uint8_t *data, uint8_t RS) // RS = 1 data ; RS = 0 command
-  31:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** {
+  29:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+  30:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** void nt_LCD_SendData(const uint8_t *data, uint8_t RS) // RS = 1 data ; RS = 0 command
+  31:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** {
  134              		.loc 1 31 1 is_stmt 1 view -0
  135              		.cfi_startproc
  136              		@ args = 0, pretend = 0, frame = 0
@@ -172,31 +172,31 @@
  144              		.cfi_offset 6, -12
  145              		.cfi_offset 7, -8
  146              		.cfi_offset 14, -4
-  32:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     // hi-bits first
-  33:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     const uint8_t DB7 = (*data >> 3) & 1;
+  32:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     // hi-bits first
+  33:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     const uint8_t DB7 = (*data >> 3) & 1;
  147              		.loc 1 33 5 is_stmt 1 view .LVU11
  148              		.loc 1 33 26 is_stmt 0 view .LVU12
  149 0002 0378     		ldrb	r3, [r0]	@ zero_extendqisi2
  150              		.loc 1 33 19 view .LVU13
  151 0004 C3F3C007 		ubfx	r7, r3, #3, #1
  152              	.LVL8:
-  34:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     const uint8_t DB6 = (*data >> 2) & 1;
+  34:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     const uint8_t DB6 = (*data >> 2) & 1;
  153              		.loc 1 34 5 is_stmt 1 view .LVU14
  154              		.loc 1 34 19 is_stmt 0 view .LVU15
  155 0008 C3F38006 		ubfx	r6, r3, #2, #1
  156              	.LVL9:
-  35:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     const uint8_t DB5 = (*data >> 1) & 1;
+  35:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     const uint8_t DB5 = (*data >> 1) & 1;
  157              		.loc 1 35 5 is_stmt 1 view .LVU16
  158              		.loc 1 35 19 is_stmt 0 view .LVU17
  159 000c C3F34005 		ubfx	r5, r3, #1, #1
  160              	.LVL10:
-  36:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     const uint8_t DB4 = (*data >> 0) & 1;
+  36:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     const uint8_t DB4 = (*data >> 0) & 1;
  161              		.loc 1 36 5 is_stmt 1 view .LVU18
  162              		.loc 1 36 19 is_stmt 0 view .LVU19
  163 0010 03F00104 		and	r4, r3, #1
  164              	.LVL11:
-  37:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
-  38:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_pinSet(&pin_RS, RS);
+  37:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+  38:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_pinSet(&pin_RS, RS);
  165              		.loc 1 38 5 is_stmt 1 view .LVU20
  166 0014 0039     		subs	r1, r1, #0
  167              	.LVL12:
@@ -208,39 +208,39 @@
  173              		.loc 1 38 5 view .LVU22
  174 001c FFF7FEFF 		bl	nt_pinSet
  175              	.LVL14:
-  39:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_pinSet(&pin_RW, false); // false = write ; true = read
+  39:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_pinSet(&pin_RW, false); // false = write ; true = read
  176              		.loc 1 39 5 is_stmt 1 view .LVU23
  177 0020 0021     		movs	r1, #0
  178 0022 1248     		ldr	r0, .L7+4
  179 0024 FFF7FEFF 		bl	nt_pinSet
  180              	.LVL15:
-  40:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
-  41:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_pinSet(&pin_DB7, DB7);
+  40:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+  41:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_pinSet(&pin_DB7, DB7);
  181              		.loc 1 41 5 view .LVU24
  182 0028 3946     		mov	r1, r7
  183 002a 1148     		ldr	r0, .L7+8
  184 002c FFF7FEFF 		bl	nt_pinSet
  185              	.LVL16:
-  42:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_pinSet(&pin_DB6, DB6);
+  42:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_pinSet(&pin_DB6, DB6);
  186              		.loc 1 42 5 view .LVU25
  187 0030 3146     		mov	r1, r6
  188 0032 1048     		ldr	r0, .L7+12
  189 0034 FFF7FEFF 		bl	nt_pinSet
  190              	.LVL17:
-  43:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_pinSet(&pin_DB5, DB5);
+  43:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_pinSet(&pin_DB5, DB5);
  191              		.loc 1 43 5 view .LVU26
  192 0038 2946     		mov	r1, r5
  193 003a 0F48     		ldr	r0, .L7+16
  194 003c FFF7FEFF 		bl	nt_pinSet
  195              	.LVL18:
-  44:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_pinSet(&pin_DB4, DB4);
+  44:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_pinSet(&pin_DB4, DB4);
  196              		.loc 1 44 5 view .LVU27
  197 0040 2146     		mov	r1, r4
  198 0042 0E48     		ldr	r0, .L7+20
  199 0044 FFF7FEFF 		bl	nt_pinSet
  200              	.LVL19:
-  45:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
-  46:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_pinSet(&pin_Enable, true);
+  45:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+  46:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_pinSet(&pin_Enable, true);
  201              		.loc 1 46 5 view .LVU28
  202 0048 0D4C     		ldr	r4, .L7+24
  203              	.LVL20:
@@ -249,23 +249,23 @@
  206 004c 2046     		mov	r0, r4
  207 004e FFF7FEFF 		bl	nt_pinSet
  208              	.LVL21:
-  47:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_waitUs(LCD_TIME_LATCH_DATA);
+  47:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_waitUs(LCD_TIME_LATCH_DATA);
  209              		.loc 1 47 5 is_stmt 1 view .LVU30
  210 0052 0520     		movs	r0, #5
  211 0054 FFF7FEFF 		bl	nt_waitUs
  212              	.LVL22:
-  48:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_pinSet(&pin_Enable, false);
+  48:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_pinSet(&pin_Enable, false);
  213              		.loc 1 48 5 view .LVU31
  214 0058 0021     		movs	r1, #0
  215 005a 2046     		mov	r0, r4
  216 005c FFF7FEFF 		bl	nt_pinSet
  217              	.LVL23:
-  49:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_waitUs(LCD_TIME_LATCH_DATA);
+  49:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_waitUs(LCD_TIME_LATCH_DATA);
  218              		.loc 1 49 5 view .LVU32
  219 0060 0520     		movs	r0, #5
  220 0062 FFF7FEFF 		bl	nt_waitUs
  221              	.LVL24:
-  50:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** }
+  50:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** }
  222              		.loc 1 50 1 is_stmt 0 view .LVU33
  223 0066 F8BD     		pop	{r3, r4, r5, r6, r7, pc}
  224              	.LVL25:
@@ -291,9 +291,9 @@
  246              	nt_LCD_SendInstruction:
  247              	.LVL26:
  248              	.LFB129:
-  51:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
-  52:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** void nt_LCD_SendInstruction(LCD_instruction instruction)
-  53:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** {
+  51:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+  52:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** void nt_LCD_SendInstruction(LCD_instruction instruction)
+  53:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** {
  249              		.loc 1 53 1 is_stmt 1 view -0
  250              		.cfi_startproc
  251              		@ args = 0, pretend = 0, frame = 8
@@ -304,37 +304,37 @@
  256              		.cfi_offset 14, -4
  257 0002 83B0     		sub	sp, sp, #12
  258              		.cfi_def_cfa_offset 16
-  54:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     const uint8_t data_hi = ((instruction >> 4) & 0x0f);
+  54:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     const uint8_t data_hi = ((instruction >> 4) & 0x0f);
  259              		.loc 1 54 5 is_stmt 1 view .LVU37
  260              		.loc 1 54 19 is_stmt 0 view .LVU38
  261 0004 0309     		lsrs	r3, r0, #4
  262 0006 8DF80730 		strb	r3, [sp, #7]
-  55:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     const uint8_t data_lo = ((instruction) & 0x0f);
+  55:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     const uint8_t data_lo = ((instruction) & 0x0f);
  263              		.loc 1 55 5 is_stmt 1 view .LVU39
  264              		.loc 1 55 44 is_stmt 0 view .LVU40
  265 000a 00F00F00 		and	r0, r0, #15
  266              	.LVL27:
  267              		.loc 1 55 19 view .LVU41
  268 000e 8DF80600 		strb	r0, [sp, #6]
-  56:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
-  57:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendData(&data_hi, 0);
+  56:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+  57:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendData(&data_hi, 0);
  269              		.loc 1 57 5 is_stmt 1 view .LVU42
  270 0012 0021     		movs	r1, #0
  271 0014 0DF10700 		add	r0, sp, #7
  272 0018 FFF7FEFF 		bl	nt_LCD_SendData
  273              	.LVL28:
-  58:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendData(&data_lo, 0);
+  58:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendData(&data_lo, 0);
  274              		.loc 1 58 5 view .LVU43
  275 001c 0021     		movs	r1, #0
  276 001e 0DF10600 		add	r0, sp, #6
  277 0022 FFF7FEFF 		bl	nt_LCD_SendData
  278              	.LVL29:
-  59:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_waitUs(LCD_TIME_PROCESS_DATA);
+  59:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_waitUs(LCD_TIME_PROCESS_DATA);
  279              		.loc 1 59 5 view .LVU44
  280 0026 1420     		movs	r0, #20
  281 0028 FFF7FEFF 		bl	nt_waitUs
  282              	.LVL30:
-  60:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** }
+  60:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** }
  283              		.loc 1 60 1 is_stmt 0 view .LVU45
  284 002c 03B0     		add	sp, sp, #12
  285              		.cfi_def_cfa_offset 4
@@ -350,9 +350,9 @@
  296              		.thumb_func
  298              	nt_LCD_Init:
  299              	.LFB130:
-  61:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
-  62:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** void nt_LCD_Init(void)
-  63:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** {
+  61:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+  62:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** void nt_LCD_Init(void)
+  63:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** {
  300              		.loc 1 63 1 is_stmt 1 view -0
  301              		.cfi_startproc
  302              		@ args = 0, pretend = 0, frame = 0
@@ -361,51 +361,51 @@
  305              		.cfi_def_cfa_offset 8
  306              		.cfi_offset 3, -8
  307              		.cfi_offset 14, -4
-  64:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_LCD_pinInit();
+  64:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_LCD_pinInit();
  308              		.loc 1 64 5 view .LVU47
  309 0002 FFF7FEFF 		bl	nt_LCD_pinInit
  310              	.LVL31:
-  65:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendInstruction(function_set);
+  65:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendInstruction(function_set);
  311              		.loc 1 65 5 view .LVU48
  312 0006 2820     		movs	r0, #40
  313 0008 FFF7FEFF 		bl	nt_LCD_SendInstruction
  314              	.LVL32:
-  66:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendInstruction(entry_mode_set);
+  66:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendInstruction(entry_mode_set);
  315              		.loc 1 66 5 view .LVU49
  316 000c 0620     		movs	r0, #6
  317 000e FFF7FEFF 		bl	nt_LCD_SendInstruction
  318              	.LVL33:
-  67:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendInstruction(display_on);
+  67:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendInstruction(display_on);
  319              		.loc 1 67 5 view .LVU50
  320 0012 0820     		movs	r0, #8
  321 0014 FFF7FEFF 		bl	nt_LCD_SendInstruction
  322              	.LVL34:
-  68:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendInstruction(cursor_off);
+  68:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendInstruction(cursor_off);
  323              		.loc 1 68 5 view .LVU51
  324 0018 0C20     		movs	r0, #12
  325 001a FFF7FEFF 		bl	nt_LCD_SendInstruction
  326              	.LVL35:
-  69:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendInstruction(clear_display);
+  69:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendInstruction(clear_display);
  327              		.loc 1 69 5 view .LVU52
  328 001e 0120     		movs	r0, #1
  329 0020 FFF7FEFF 		bl	nt_LCD_SendInstruction
  330              	.LVL36:
-  70:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendInstruction(return_home);
+  70:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendInstruction(return_home);
  331              		.loc 1 70 5 view .LVU53
  332 0024 0220     		movs	r0, #2
  333 0026 FFF7FEFF 		bl	nt_LCD_SendInstruction
  334              	.LVL37:
-  71:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_waitUs(1550);
+  71:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_waitUs(1550);
  335              		.loc 1 71 5 view .LVU54
  336 002a 40F20E60 		movw	r0, #1550
  337 002e FFF7FEFF 		bl	nt_waitUs
  338              	.LVL38:
-  72:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendInstruction(set_DDRAM_address_line_00);
+  72:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendInstruction(set_DDRAM_address_line_00);
  339              		.loc 1 72 5 view .LVU55
  340 0032 8020     		movs	r0, #128
  341 0034 FFF7FEFF 		bl	nt_LCD_SendInstruction
  342              	.LVL39:
-  73:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** }
+  73:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** }
  343              		.loc 1 73 1 is_stmt 0 view .LVU56
  344 0038 08BD     		pop	{r3, pc}
  345              		.cfi_endproc
@@ -419,9 +419,9 @@
  355              	nt_LCD_SetCursor:
  356              	.LVL40:
  357              	.LFB131:
-  74:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
-  75:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** void nt_LCD_SetCursor(uint8_t line, uint8_t pos)
-  76:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** {
+  74:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+  75:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** void nt_LCD_SetCursor(uint8_t line, uint8_t pos)
+  76:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** {
  358              		.loc 1 76 1 is_stmt 1 view -0
  359              		.cfi_startproc
  360              		@ args = 0, pretend = 0, frame = 0
@@ -431,58 +431,58 @@
  364              		.cfi_def_cfa_offset 8
  365              		.cfi_offset 3, -8
  366              		.cfi_offset 14, -4
-  77:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     switch (line)
+  77:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     switch (line)
  367              		.loc 1 77 5 is_stmt 1 view .LVU59
  368 0002 10B1     		cbz	r0, .L14
  369 0004 0128     		cmp	r0, #1
  370 0006 05D0     		beq	.L15
  371              	.LVL41:
  372              	.L13:
-  78:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     {
-  79:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     case 0:
-  80:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****         nt_LCD_SendInstruction(set_DDRAM_address_line_00 + pos);
-  81:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****         break;
-  82:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
-  83:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     case 1:
-  84:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****         nt_LCD_SendInstruction(set_DDRAM_address_line_10 + pos);
-  85:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****         break;
-  86:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
-  87:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     default:
-  88:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****         break;
-  89:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     }
-  90:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** }
+  78:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     {
+  79:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     case 0:
+  80:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****         nt_LCD_SendInstruction(set_DDRAM_address_line_00 + pos);
+  81:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****         break;
+  82:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+  83:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     case 1:
+  84:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****         nt_LCD_SendInstruction(set_DDRAM_address_line_10 + pos);
+  85:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****         break;
+  86:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+  87:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     default:
+  88:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****         break;
+  89:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     }
+  90:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** }
  373              		.loc 1 90 1 is_stmt 0 view .LVU60
  374 0008 08BD     		pop	{r3, pc}
  375              	.LVL42:
  376              	.L14:
-  80:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****         break;
+  80:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****         break;
  377              		.loc 1 80 9 is_stmt 1 view .LVU61
  378 000a 81F08000 		eor	r0, r1, #128
  379              	.LVL43:
-  80:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****         break;
+  80:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****         break;
  380              		.loc 1 80 9 is_stmt 0 view .LVU62
  381 000e FFF7FEFF 		bl	nt_LCD_SendInstruction
  382              	.LVL44:
-  81:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
+  81:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
  383              		.loc 1 81 9 is_stmt 1 view .LVU63
  384 0012 F9E7     		b	.L13
  385              	.LVL45:
  386              	.L15:
-  84:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****         break;
+  84:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****         break;
  387              		.loc 1 84 9 view .LVU64
-  84:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****         break;
+  84:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****         break;
  388              		.loc 1 84 58 is_stmt 0 view .LVU65
  389 0014 4039     		subs	r1, r1, #64
  390              	.LVL46:
-  84:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****         break;
+  84:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****         break;
  391              		.loc 1 84 9 view .LVU66
  392 0016 C8B2     		uxtb	r0, r1
  393              	.LVL47:
-  84:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****         break;
+  84:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****         break;
  394              		.loc 1 84 9 view .LVU67
  395 0018 FFF7FEFF 		bl	nt_LCD_SendInstruction
  396              	.LVL48:
-  85:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
+  85:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
  397              		.loc 1 85 9 is_stmt 1 view .LVU68
  398              		.loc 1 90 1 is_stmt 0 view .LVU69
  399 001c F4E7     		b	.L13
@@ -496,9 +496,9 @@
  408              		.thumb_func
  410              	nt_LCD_Shift_Left:
  411              	.LFB132:
-  91:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
-  92:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** void nt_LCD_Shift_Left(void)
-  93:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** {
+  91:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+  92:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** void nt_LCD_Shift_Left(void)
+  93:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** {
  412              		.loc 1 93 1 is_stmt 1 view -0
  413              		.cfi_startproc
  414              		@ args = 0, pretend = 0, frame = 0
@@ -507,12 +507,12 @@
  417              		.cfi_def_cfa_offset 8
  418              		.cfi_offset 3, -8
  419              		.cfi_offset 14, -4
-  94:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendInstruction(display_shift_left);
+  94:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendInstruction(display_shift_left);
  420              		.loc 1 94 5 view .LVU71
  421 0002 1820     		movs	r0, #24
  422 0004 FFF7FEFF 		bl	nt_LCD_SendInstruction
  423              	.LVL49:
-  95:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** }
+  95:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** }
  424              		.loc 1 95 1 is_stmt 0 view .LVU72
  425 0008 08BD     		pop	{r3, pc}
  426              		.cfi_endproc
@@ -525,9 +525,9 @@
  434              		.thumb_func
  436              	nt_LCD_Shift_Right:
  437              	.LFB133:
-  96:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
-  97:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** void nt_LCD_Shift_Right(void)
-  98:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** {
+  96:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+  97:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** void nt_LCD_Shift_Right(void)
+  98:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** {
  438              		.loc 1 98 1 is_stmt 1 view -0
  439              		.cfi_startproc
  440              		@ args = 0, pretend = 0, frame = 0
@@ -536,12 +536,12 @@
  443              		.cfi_def_cfa_offset 8
  444              		.cfi_offset 3, -8
  445              		.cfi_offset 14, -4
-  99:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendInstruction(display_shift_right);
+  99:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendInstruction(display_shift_right);
  446              		.loc 1 99 5 view .LVU74
  447 0002 1C20     		movs	r0, #28
  448 0004 FFF7FEFF 		bl	nt_LCD_SendInstruction
  449              	.LVL50:
- 100:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** }
+ 100:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** }
  450              		.loc 1 100 1 is_stmt 0 view .LVU75
  451 0008 08BD     		pop	{r3, pc}
  452              		.cfi_endproc
@@ -555,10 +555,10 @@
  462              	nt_LCD_PrintChar:
  463              	.LVL51:
  464              	.LFB134:
- 101:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
- 102:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
- 103:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** void nt_LCD_PrintChar(const char c)
- 104:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** {
+ 101:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+ 102:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+ 103:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** void nt_LCD_PrintChar(const char c)
+ 104:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** {
  465              		.loc 1 104 1 is_stmt 1 view -0
  466              		.cfi_startproc
  467              		@ args = 0, pretend = 0, frame = 8
@@ -571,12 +571,12 @@
  474 0002 82B0     		sub	sp, sp, #8
  475              		.cfi_def_cfa_offset 16
  476 0004 0446     		mov	r4, r0
- 105:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     uint8_t print_chr = ((c >> 4) & 0x0f);
+ 105:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     uint8_t print_chr = ((c >> 4) & 0x0f);
  477              		.loc 1 105 5 is_stmt 1 view .LVU78
  478              		.loc 1 105 13 is_stmt 0 view .LVU79
  479 0006 0309     		lsrs	r3, r0, #4
  480 0008 8DF80730 		strb	r3, [sp, #7]
- 106:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendData(&print_chr, 1);
+ 106:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendData(&print_chr, 1);
  481              		.loc 1 106 5 is_stmt 1 view .LVU80
  482 000c 0121     		movs	r1, #1
  483 000e 0DF10700 		add	r0, sp, #7
@@ -584,25 +584,25 @@
  485              		.loc 1 106 5 is_stmt 0 view .LVU81
  486 0012 FFF7FEFF 		bl	nt_LCD_SendData
  487              	.LVL53:
- 107:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
- 108:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     print_chr = ((c) & 0x0f);
+ 107:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+ 108:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     print_chr = ((c) & 0x0f);
  488              		.loc 1 108 5 is_stmt 1 view .LVU82
  489              		.loc 1 108 22 is_stmt 0 view .LVU83
  490 0016 04F00F04 		and	r4, r4, #15
  491              		.loc 1 108 15 view .LVU84
  492 001a 8DF80740 		strb	r4, [sp, #7]
- 109:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendData(&print_chr, 1);
+ 109:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_LCD_SendData(&print_chr, 1);
  493              		.loc 1 109 5 is_stmt 1 view .LVU85
  494 001e 0121     		movs	r1, #1
  495 0020 0DF10700 		add	r0, sp, #7
  496 0024 FFF7FEFF 		bl	nt_LCD_SendData
  497              	.LVL54:
- 110:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_waitUs(LCD_TIME_PROCESS_DATA);
+ 110:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_waitUs(LCD_TIME_PROCESS_DATA);
  498              		.loc 1 110 5 view .LVU86
  499 0028 1420     		movs	r0, #20
  500 002a FFF7FEFF 		bl	nt_waitUs
  501              	.LVL55:
- 111:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** }
+ 111:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** }
  502              		.loc 1 111 1 is_stmt 0 view .LVU87
  503 002e 02B0     		add	sp, sp, #8
  504              		.cfi_def_cfa_offset 8
@@ -619,10 +619,10 @@
  517              	nt_LCD_PrintLen:
  518              	.LVL56:
  519              	.LFB135:
- 112:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
- 113:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
- 114:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** void nt_LCD_PrintLen(const char *str, int len)
- 115:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** {
+ 112:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+ 113:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+ 114:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** void nt_LCD_PrintLen(const char *str, int len)
+ 115:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** {
  520              		.loc 1 115 1 is_stmt 1 view -0
  521              		.cfi_startproc
  522              		@ args = 0, pretend = 0, frame = 0
@@ -636,12 +636,12 @@
  530              		.cfi_offset 14, -4
  531 0002 0646     		mov	r6, r0
  532 0004 0D46     		mov	r5, r1
- 116:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     int i = 0;
+ 116:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     int i = 0;
  533              		.loc 1 116 5 is_stmt 1 view .LVU90
  534              	.LVL57:
- 117:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     while (i < len)
+ 117:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     while (i < len)
  535              		.loc 1 117 5 view .LVU91
- 116:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     int i = 0;
+ 116:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     int i = 0;
  536              		.loc 1 116 9 is_stmt 0 view .LVU92
  537 0006 0024     		movs	r4, #0
  538              		.loc 1 117 11 view .LVU93
@@ -649,17 +649,17 @@
  540              	.LVL58:
  541              	.L29:
  542              	.LBB2:
- 118:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     {
- 119:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****         const char c = str[i];
- 120:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****         if (!c)
- 121:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****             break;
- 122:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
- 123:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****         nt_LCD_PrintChar(c);
+ 118:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     {
+ 119:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****         const char c = str[i];
+ 120:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****         if (!c)
+ 121:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****             break;
+ 122:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+ 123:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****         nt_LCD_PrintChar(c);
  543              		.loc 1 123 9 is_stmt 1 view .LVU94
  544 000a FFF7FEFF 		bl	nt_LCD_PrintChar
  545              	.LVL59:
- 124:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
- 125:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****         i++;
+ 124:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+ 125:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****         i++;
  546              		.loc 1 125 9 view .LVU95
  547              		.loc 1 125 10 is_stmt 0 view .LVU96
  548 000e 0134     		adds	r4, r4, #1
@@ -667,30 +667,30 @@
  550              	.L25:
  551              		.loc 1 125 10 view .LVU97
  552              	.LBE2:
- 117:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     {
+ 117:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     {
  553              		.loc 1 117 14 is_stmt 1 view .LVU98
  554 0010 AC42     		cmp	r4, r5
  555 0012 02DA     		bge	.L24
  556              	.LBB3:
- 119:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****         if (!c)
+ 119:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****         if (!c)
  557              		.loc 1 119 9 view .LVU99
- 119:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****         if (!c)
+ 119:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****         if (!c)
  558              		.loc 1 119 20 is_stmt 0 view .LVU100
  559 0014 305D     		ldrb	r0, [r6, r4]	@ zero_extendqisi2
  560              	.LVL61:
- 120:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****             break;
+ 120:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****             break;
  561              		.loc 1 120 9 is_stmt 1 view .LVU101
- 120:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****             break;
+ 120:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****             break;
  562              		.loc 1 120 12 is_stmt 0 view .LVU102
  563 0016 0028     		cmp	r0, #0
  564 0018 F7D1     		bne	.L29
  565              	.LVL62:
  566              	.L24:
- 120:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****             break;
+ 120:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****             break;
  567              		.loc 1 120 12 view .LVU103
  568              	.LBE3:
- 126:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     }
- 127:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** }
+ 126:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     }
+ 127:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** }
  569              		.loc 1 127 1 view .LVU104
  570 001a 70BD     		pop	{r4, r5, r6, pc}
  571              		.loc 1 127 1 view .LVU105
@@ -705,9 +705,9 @@
  582              	nt_LCD_Print:
  583              	.LVL63:
  584              	.LFB136:
- 128:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** 
- 129:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** void nt_LCD_Print(const char *str)
- 130:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** {
+ 128:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** 
+ 129:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** void nt_LCD_Print(const char *str)
+ 130:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** {
  585              		.loc 1 130 1 is_stmt 1 view -0
  586              		.cfi_startproc
  587              		@ args = 0, pretend = 0, frame = 0
@@ -717,12 +717,12 @@
  591              		.cfi_def_cfa_offset 8
  592              		.cfi_offset 3, -8
  593              		.cfi_offset 14, -4
- 131:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c ****     nt_LCD_PrintLen(str, 24);
+ 131:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c ****     nt_LCD_PrintLen(str, 24);
  594              		.loc 1 131 5 is_stmt 1 view .LVU108
  595 0002 1821     		movs	r1, #24
  596 0004 FFF7FEFF 		bl	nt_LCD_PrintLen
  597              	.LVL64:
- 132:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_LCD_1602.c **** }
+ 132:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_LCD_1602.c **** }
  598              		.loc 1 132 1 is_stmt 0 view .LVU109
  599 0008 08BD     		pop	{r3, pc}
  600              		.cfi_endproc
@@ -780,7 +780,7 @@
  646              	.Letext0:
  647              		.file 2 "C:\\ST\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/..
  648              		.file 3 "C:\\ST\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/..
- 649              		.file 4 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_
- 650              		.file 5 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_
- 651              		.file 6 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_
- 652              		.file 7 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_
+ 649              		.file 4 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_p
+ 650              		.file 5 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_p
+ 651              		.file 6 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_p
+ 652              		.file 7 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_p

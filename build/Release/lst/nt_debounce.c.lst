@@ -14,7 +14,7 @@
   14              		.text
   15              	.Ltext0:
   16              		.cfi_sections	.debug_frame
-  17              		.file 1 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_
+  17              		.file 1 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_p
   18              		.section	.text.nt_debounceBtn,"ax",%progbits
   19              		.align	1
   20              		.global	nt_debounceBtn
@@ -24,12 +24,12 @@
   25              	nt_debounceBtn:
   26              	.LVL0:
   27              	.LFB0:
-   1:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c **** #include "nt_debounce.h"
-   2:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c **** #include <stdbool.h>
-   3:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c **** #include "lwprintf/lwprintf.h"
-   4:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c **** 
-   5:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c **** uint8_t nt_debounceBtn(nt_btn_t *btn, uint32_t mstime)
-   6:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c **** {
+   1:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c **** #include "nt_debounce.h"
+   2:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c **** #include <stdbool.h>
+   3:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c **** #include "lwprintf/lwprintf.h"
+   4:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c **** 
+   5:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c **** uint8_t nt_debounceBtn(nt_btn_t *btn, uint32_t mstime)
+   6:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c **** {
   28              		.loc 1 6 1 view -0
   29              		.cfi_startproc
   30              		@ args = 0, pretend = 0, frame = 0
@@ -43,10 +43,10 @@
   38              		.cfi_offset 14, -4
   39 0002 0446     		mov	r4, r0
   40 0004 0D46     		mov	r5, r1
-   7:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****   uint8_t current_state;
+   7:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****   uint8_t current_state;
   41              		.loc 1 7 3 is_stmt 1 view .LVU2
-   8:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c **** 
-   9:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****   current_state = nt_readPin(btn->pin_args->pin);
+   8:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c **** 
+   9:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****   current_state = nt_readPin(btn->pin_args->pin);
   42              		.loc 1 9 3 view .LVU3
   43              		.loc 1 9 33 is_stmt 0 view .LVU4
   44 0006 C368     		ldr	r3, [r0, #12]
@@ -56,127 +56,127 @@
   48              		.loc 1 9 19 view .LVU6
   49 000a FFF7FEFF 		bl	nt_readPin
   50              	.LVL2:
-  10:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c **** 
-  11:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****   // DEFER
-  12:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****   if (current_state != btn->state_last)
+  10:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c **** 
+  11:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****   // DEFER
+  12:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****   if (current_state != btn->state_last)
   51              		.loc 1 12 3 is_stmt 1 view .LVU7
   52              		.loc 1 12 27 is_stmt 0 view .LVU8
   53 000e A378     		ldrb	r3, [r4, #2]	@ zero_extendqisi2
   54              		.loc 1 12 6 view .LVU9
   55 0010 8342     		cmp	r3, r0
   56 0012 03D0     		beq	.L2
-  13:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****   {
-  14:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****     btn->time_change_last = mstime;
+  13:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****   {
+  14:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****     btn->time_change_last = mstime;
   57              		.loc 1 14 5 is_stmt 1 view .LVU10
   58              		.loc 1 14 27 is_stmt 0 view .LVU11
   59 0014 A560     		str	r5, [r4, #8]
   60              	.L3:
-  15:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****   }
-  16:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****   else if (current_state == btn->pin_args->active_state)
-  17:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****   {
-  18:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****     if (!(btn->flags & ONPRESS_CONFIRM))
-  19:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****     {
-  20:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****       if (mstime - btn->time_change_last >= btn->pin_args->debounce_time)
-  21:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****       {
-  22:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****         btn->flags |= ONPRESS_CONFIRM;
-  23:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****         btn->state_last = current_state;
-  24:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****         return true;
-  25:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****       }
-  26:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****     }
-  27:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****   }
-  28:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****   else
-  29:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****   {
-  30:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****     if (btn->flags & ONPRESS_CONFIRM)
-  31:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****     {
-  32:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****       btn->flags &= ~(ONPRESS_CONFIRM);
-  33:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****     }
-  34:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****   }
-  35:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****   btn->state_last = current_state;
+  15:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****   }
+  16:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****   else if (current_state == btn->pin_args->active_state)
+  17:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****   {
+  18:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****     if (!(btn->flags & ONPRESS_CONFIRM))
+  19:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****     {
+  20:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****       if (mstime - btn->time_change_last >= btn->pin_args->debounce_time)
+  21:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****       {
+  22:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****         btn->flags |= ONPRESS_CONFIRM;
+  23:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****         btn->state_last = current_state;
+  24:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****         return true;
+  25:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****       }
+  26:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****     }
+  27:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****   }
+  28:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****   else
+  29:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****   {
+  30:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****     if (btn->flags & ONPRESS_CONFIRM)
+  31:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****     {
+  32:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****       btn->flags &= ~(ONPRESS_CONFIRM);
+  33:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****     }
+  34:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****   }
+  35:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****   btn->state_last = current_state;
   61              		.loc 1 35 3 is_stmt 1 view .LVU12
   62              		.loc 1 35 19 is_stmt 0 view .LVU13
   63 0016 A070     		strb	r0, [r4, #2]
-  36:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****   return false;
+  36:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****   return false;
   64              		.loc 1 36 3 is_stmt 1 view .LVU14
   65              		.loc 1 36 10 is_stmt 0 view .LVU15
   66 0018 0020     		movs	r0, #0
   67              	.LVL3:
   68              	.L5:
-  37:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c **** }
+  37:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c **** }
   69              		.loc 1 37 1 view .LVU16
   70 001a 38BD     		pop	{r3, r4, r5, pc}
   71              	.LVL4:
   72              	.L2:
-  16:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****   {
+  16:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****   {
   73              		.loc 1 16 8 is_stmt 1 view .LVU17
-  16:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****   {
+  16:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****   {
   74              		.loc 1 16 32 is_stmt 0 view .LVU18
   75 001c E368     		ldr	r3, [r4, #12]
-  16:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****   {
+  16:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****   {
   76              		.loc 1 16 42 view .LVU19
   77 001e 1A7A     		ldrb	r2, [r3, #8]	@ zero_extendqisi2
-  16:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****   {
+  16:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****   {
   78              		.loc 1 16 11 view .LVU20
   79 0020 8242     		cmp	r2, r0
   80 0022 07D0     		beq	.L7
-  30:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****     {
+  30:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****     {
   81              		.loc 1 30 5 is_stmt 1 view .LVU21
-  30:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****     {
+  30:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****     {
   82              		.loc 1 30 12 is_stmt 0 view .LVU22
   83 0024 2388     		ldrh	r3, [r4]
-  30:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****     {
+  30:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****     {
   84              		.loc 1 30 8 view .LVU23
   85 0026 13F0010F 		tst	r3, #1
   86 002a F4D0     		beq	.L3
-  32:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****     }
+  32:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****     }
   87              		.loc 1 32 7 is_stmt 1 view .LVU24
-  32:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****     }
+  32:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****     }
   88              		.loc 1 32 18 is_stmt 0 view .LVU25
   89 002c 23F00103 		bic	r3, r3, #1
   90 0030 2380     		strh	r3, [r4]	@ movhi
   91 0032 F0E7     		b	.L3
   92              	.L7:
-  18:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****     {
+  18:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****     {
   93              		.loc 1 18 5 is_stmt 1 view .LVU26
-  18:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****     {
+  18:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****     {
   94              		.loc 1 18 14 is_stmt 0 view .LVU27
   95 0034 2288     		ldrh	r2, [r4]
-  18:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****     {
+  18:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****     {
   96              		.loc 1 18 8 view .LVU28
   97 0036 12F0010F 		tst	r2, #1
   98 003a ECD1     		bne	.L3
-  20:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****       {
+  20:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****       {
   99              		.loc 1 20 7 is_stmt 1 view .LVU29
-  20:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****       {
+  20:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****       {
  100              		.loc 1 20 23 is_stmt 0 view .LVU30
  101 003c A168     		ldr	r1, [r4, #8]
-  20:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****       {
+  20:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****       {
  102              		.loc 1 20 18 view .LVU31
  103 003e 691A     		subs	r1, r5, r1
-  20:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****       {
+  20:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****       {
  104              		.loc 1 20 58 view .LVU32
  105 0040 DB88     		ldrh	r3, [r3, #6]
-  20:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****       {
+  20:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****       {
  106              		.loc 1 20 10 view .LVU33
  107 0042 9942     		cmp	r1, r3
  108 0044 E7D3     		bcc	.L3
-  22:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****         btn->state_last = current_state;
+  22:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****         btn->state_last = current_state;
  109              		.loc 1 22 9 is_stmt 1 view .LVU34
-  22:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****         btn->state_last = current_state;
+  22:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****         btn->state_last = current_state;
  110              		.loc 1 22 20 is_stmt 0 view .LVU35
  111 0046 42F00102 		orr	r2, r2, #1
  112 004a 2280     		strh	r2, [r4]	@ movhi
-  23:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****         return true;
+  23:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****         return true;
  113              		.loc 1 23 9 is_stmt 1 view .LVU36
-  23:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****         return true;
+  23:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****         return true;
  114              		.loc 1 23 25 is_stmt 0 view .LVU37
  115 004c A070     		strb	r0, [r4, #2]
-  24:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****       }
+  24:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****       }
  116              		.loc 1 24 9 is_stmt 1 view .LVU38
-  24:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****       }
+  24:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****       }
  117              		.loc 1 24 16 is_stmt 0 view .LVU39
  118 004e 0120     		movs	r0, #1
  119              	.LVL5:
-  24:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_debounce.c ****       }
+  24:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_debounce.c ****       }
  120              		.loc 1 24 16 view .LVU40
  121 0050 E3E7     		b	.L5
  122              		.cfi_endproc
@@ -185,5 +185,5 @@
  126              	.Letext0:
  127              		.file 2 "C:\\ST\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/..
  128              		.file 3 "C:\\ST\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/..
- 129              		.file 4 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_
- 130              		.file 5 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_
+ 129              		.file 4 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_p
+ 130              		.file 5 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_p

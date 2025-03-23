@@ -1,0 +1,3961 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "STM32_template_proj.elf"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_options",
+			"target_compile_options",
+			"target_compile_definitions",
+			"target_include_directories",
+			"target_link_libraries",
+			"set_source_files_properties"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 138,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 160,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 148,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 145,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 142,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 178,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 181,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 206,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=auto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=soft"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wa,-adhln=C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lst/main.c.lst"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_STARTUP_TIMEOUT=100"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSI_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_STARTUP_TIMEOUT=5000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_VALUE=32768"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSI_VALUE=40000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PREFETCH_ENABLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VDD_VALUE=3300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/lib_inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwprintf/src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=auto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=soft"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-Wa,-adhln=C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lst/nt_encoder.c.lst"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_STARTUP_TIMEOUT=100"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSI_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_STARTUP_TIMEOUT=5000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_VALUE=32768"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSI_VALUE=40000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PREFETCH_ENABLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VDD_VALUE=3300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/lib_inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwprintf/src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				1
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=auto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=soft"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wa,-adhln=C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lst/nt_debounce.c.lst"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_STARTUP_TIMEOUT=100"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSI_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_STARTUP_TIMEOUT=5000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_VALUE=32768"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSI_VALUE=40000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PREFETCH_ENABLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VDD_VALUE=3300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/lib_inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwprintf/src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				2
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=auto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=soft"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-Wa,-adhln=C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lst/nt_time_utils.c.lst"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_STARTUP_TIMEOUT=100"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSI_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_STARTUP_TIMEOUT=5000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_VALUE=32768"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSI_VALUE=40000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PREFETCH_ENABLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VDD_VALUE=3300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/lib_inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwprintf/src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				3
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=auto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=soft"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wa,-adhln=C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lst/nt_system_init.c.lst"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_STARTUP_TIMEOUT=100"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSI_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_STARTUP_TIMEOUT=5000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_VALUE=32768"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSI_VALUE=40000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PREFETCH_ENABLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VDD_VALUE=3300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/lib_inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwprintf/src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				4
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=auto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=soft"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 13,
+					"fragment" : "-Wa,-adhln=C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lst/nt_time.c.lst"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_STARTUP_TIMEOUT=100"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSI_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_STARTUP_TIMEOUT=5000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_VALUE=32768"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSI_VALUE=40000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PREFETCH_ENABLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VDD_VALUE=3300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/lib_inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwprintf/src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				5
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=auto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=soft"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wa,-adhln=C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lst/nt_gpio.c.lst"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_STARTUP_TIMEOUT=100"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSI_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_STARTUP_TIMEOUT=5000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_VALUE=32768"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSI_VALUE=40000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PREFETCH_ENABLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VDD_VALUE=3300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/lib_inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwprintf/src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				6
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=auto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=soft"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-Wa,-adhln=C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lst/nt_usart.c.lst"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_STARTUP_TIMEOUT=100"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSI_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_STARTUP_TIMEOUT=5000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_VALUE=32768"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSI_VALUE=40000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PREFETCH_ENABLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VDD_VALUE=3300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/lib_inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwprintf/src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				7
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=auto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=soft"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wa,-adhln=C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lst/nt_LCD_1602.c.lst"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_STARTUP_TIMEOUT=100"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSI_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_STARTUP_TIMEOUT=5000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_VALUE=32768"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSI_VALUE=40000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PREFETCH_ENABLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VDD_VALUE=3300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/lib_inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwprintf/src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				8
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=auto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=soft"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 17,
+					"fragment" : "-Wa,-adhln=C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lst/stm32f1xx_it.c.lst"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_STARTUP_TIMEOUT=100"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSI_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_STARTUP_TIMEOUT=5000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_VALUE=32768"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSI_VALUE=40000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PREFETCH_ENABLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VDD_VALUE=3300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/lib_inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwprintf/src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				9
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=auto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=soft"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-Wa,-adhln=C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lst/syscalls.c.lst"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_STARTUP_TIMEOUT=100"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSI_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_STARTUP_TIMEOUT=5000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_VALUE=32768"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSI_VALUE=40000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PREFETCH_ENABLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VDD_VALUE=3300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/lib_inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwprintf/src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				10
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=auto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=soft"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 19,
+					"fragment" : "-Wa,-adhln=C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lst/sysmem.c.lst"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_STARTUP_TIMEOUT=100"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSI_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_STARTUP_TIMEOUT=5000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_VALUE=32768"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSI_VALUE=40000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PREFETCH_ENABLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VDD_VALUE=3300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/lib_inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwprintf/src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				11
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=auto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=soft"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "-Wa,-adhln=C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lst/system_stm32f1xx.c.lst"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_STARTUP_TIMEOUT=100"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSI_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_STARTUP_TIMEOUT=5000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_VALUE=32768"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSI_VALUE=40000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PREFETCH_ENABLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VDD_VALUE=3300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/lib_inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwprintf/src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				12
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=auto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=soft"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 21,
+					"fragment" : "-Wa,-adhln=C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lst/startup_stm32f103rbtx.s.lst"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_STARTUP_TIMEOUT=100"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSI_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_STARTUP_TIMEOUT=5000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_VALUE=32768"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSI_VALUE=40000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PREFETCH_ENABLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VDD_VALUE=3300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/lib_inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwprintf/src/include"
+				}
+			],
+			"language" : "ASM",
+			"sourceIndexes" : 
+			[
+				13
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=auto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=soft"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 22,
+					"fragment" : "-Wa,-adhln=C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lst/stm32f1xx_ll_dma.c.lst"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_STARTUP_TIMEOUT=100"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSI_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_STARTUP_TIMEOUT=5000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_VALUE=32768"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSI_VALUE=40000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PREFETCH_ENABLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VDD_VALUE=3300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/lib_inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwprintf/src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				14
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=auto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=soft"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 23,
+					"fragment" : "-Wa,-adhln=C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lst/stm32f1xx_ll_exti.c.lst"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_STARTUP_TIMEOUT=100"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSI_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_STARTUP_TIMEOUT=5000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_VALUE=32768"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSI_VALUE=40000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PREFETCH_ENABLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VDD_VALUE=3300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/lib_inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwprintf/src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				15
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=auto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=soft"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-Wa,-adhln=C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lst/stm32f1xx_ll_gpio.c.lst"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_STARTUP_TIMEOUT=100"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSI_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_STARTUP_TIMEOUT=5000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_VALUE=32768"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSI_VALUE=40000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PREFETCH_ENABLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VDD_VALUE=3300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/lib_inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwprintf/src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				16
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=auto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=soft"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 25,
+					"fragment" : "-Wa,-adhln=C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lst/stm32f1xx_ll_pwr.c.lst"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_STARTUP_TIMEOUT=100"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSI_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_STARTUP_TIMEOUT=5000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_VALUE=32768"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSI_VALUE=40000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PREFETCH_ENABLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VDD_VALUE=3300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/lib_inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwprintf/src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				17
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=auto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=soft"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "-Wa,-adhln=C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lst/stm32f1xx_ll_rcc.c.lst"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_STARTUP_TIMEOUT=100"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSI_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_STARTUP_TIMEOUT=5000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_VALUE=32768"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSI_VALUE=40000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PREFETCH_ENABLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VDD_VALUE=3300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/lib_inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwprintf/src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				18
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=auto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=soft"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 27,
+					"fragment" : "-Wa,-adhln=C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lst/stm32f1xx_ll_tim.c.lst"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_STARTUP_TIMEOUT=100"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSI_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_STARTUP_TIMEOUT=5000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_VALUE=32768"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSI_VALUE=40000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PREFETCH_ENABLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VDD_VALUE=3300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/lib_inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwprintf/src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				19
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=auto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=soft"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 28,
+					"fragment" : "-Wa,-adhln=C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lst/stm32f1xx_ll_usart.c.lst"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_STARTUP_TIMEOUT=100"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSI_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_STARTUP_TIMEOUT=5000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_VALUE=32768"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSI_VALUE=40000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PREFETCH_ENABLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VDD_VALUE=3300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/lib_inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwprintf/src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				20
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=auto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=soft"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				},
+				{
+					"backtrace" : 29,
+					"fragment" : "-Wa,-adhln=C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lst/stm32f1xx_ll_utils.c.lst"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_STARTUP_TIMEOUT=100"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSI_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_STARTUP_TIMEOUT=5000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_VALUE=32768"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSI_VALUE=40000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PREFETCH_ENABLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VDD_VALUE=3300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/lib_inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwprintf/src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				21
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -std=gnu11"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mthumb"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mcpu=cortex-m3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfpu=auto"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-mfloat-abi=soft"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Wno-unused-parameter"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-Og"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-g3"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-ggdb"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_STARTUP_TIMEOUT=100"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSE_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HSI_VALUE=8000000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_STARTUP_TIMEOUT=5000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSE_VALUE=32768"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "LSI_VALUE=40000"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "PREFETCH_ENABLE=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "STM32F103xB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "USE_FULL_LL_DRIVER"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "VDD_VALUE=3300"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/STM32F1xx_HAL_Driver/Inc"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Device/ST/STM32F1xx/Include"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Drivers/CMSIS/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn/src/include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/lib_inc"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwprintf/src/include"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				22,
+				23
+			]
+		}
+	],
+	"id" : "STM32_template_proj::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-TC:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/STM32F103RBTX_FLASH.ld",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-mthumb",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-mcpu=cortex-m3",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-mfpu=auto",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-mfloat-abi=soft",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,-Map=STM32_template_proj.map",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "--specs=nosys.specs",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-u",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "_printf_float",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,--start-group",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lc",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lm",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lstdc++",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lsupc++",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,--end-group",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-Wl,--print-memory-usage",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "STM32_template_proj",
+	"nameOnDisk" : "STM32_template_proj.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				13
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Core/Src/main.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "Core/Src/nt_encoder.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 2,
+			"path" : "Core/Src/nt_debounce.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 3,
+			"path" : "Core/Src/nt_time_utils.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 4,
+			"path" : "Core/Src/nt_system_init.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 5,
+			"path" : "Core/Src/nt_time.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 6,
+			"path" : "Core/Src/nt_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 7,
+			"path" : "Core/Src/nt_usart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 8,
+			"path" : "Core/Src/nt_LCD_1602.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 9,
+			"path" : "Core/Src/stm32f1xx_it.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 10,
+			"path" : "Core/Src/syscalls.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 11,
+			"path" : "Core/Src/sysmem.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 12,
+			"path" : "Core/Src/system_stm32f1xx.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 13,
+			"path" : "Core/Startup/startup_stm32f103rbtx.s",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 14,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_dma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 15,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_exti.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 16,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 17,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_pwr.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 18,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_rcc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 19,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_tim.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 20,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_usart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 21,
+			"path" : "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_ll_utils.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 6,
+			"compileGroupIndex" : 22,
+			"path" : "lwbtn/src/lwbtn/lwbtn.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 22,
+			"path" : "lwprintf/src/lwprintf/lwprintf.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

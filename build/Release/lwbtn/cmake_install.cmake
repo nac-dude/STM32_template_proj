@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/lwbtn
+# Install script for directory: C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/lwbtn
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/STM32_NUCLEO_LL_Project_LCD_22_02_2025")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/STM32_template_proj")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

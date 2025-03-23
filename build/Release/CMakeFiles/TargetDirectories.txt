@@ -1,7 +1,7 @@
-C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/build/Release/CMakeFiles/STM32_NUCLEO_LL_Project_LCD_22_02_2025.dir
-C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/build/Release/CMakeFiles/edit_cache.dir
-C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/build/Release/CMakeFiles/rebuild_cache.dir
-C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/build/Release/lwbtn/CMakeFiles/edit_cache.dir
-C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/build/Release/lwbtn/CMakeFiles/rebuild_cache.dir
-C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/build/Release/lwprintf/CMakeFiles/edit_cache.dir
-C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/build/Release/lwprintf/CMakeFiles/rebuild_cache.dir
+C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/CMakeFiles/STM32_template_proj.dir
+C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/CMakeFiles/edit_cache.dir
+C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/CMakeFiles/rebuild_cache.dir
+C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/CMakeFiles/edit_cache.dir
+C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwbtn/CMakeFiles/rebuild_cache.dir
+C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwprintf/CMakeFiles/edit_cache.dir
+C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/build/Release/lwprintf/CMakeFiles/rebuild_cache.dir

@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: STM32_NUCLEO_LL_Project_LCD_22_02_2025
+# Project: STM32_template_proj
 # Configurations: Release
 # =============================================================================
 # =============================================================================
@@ -14,7 +14,7 @@
 #############################################
 # Rule for compiling ASM files.
 
-rule ASM_COMPILER__STM32_NUCLEO_LL_Project_LCD_22_02_2025_unscanned_Release
+rule ASM_COMPILER__STM32_template_proj_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe -fdata-sections -ffunction-sections --specs=nano.specs -Wl,--gc-sections $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -24,7 +24,7 @@ rule ASM_COMPILER__STM32_NUCLEO_LL_Project_LCD_22_02_2025_unscanned_Release
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__STM32_NUCLEO_LL_Project_LCD_22_02_2025_unscanned_Release
+rule C_COMPILER__STM32_template_proj_unscanned_Release
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe -fdata-sections -ffunction-sections --specs=nano.specs -Wl,--gc-sections $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -34,7 +34,7 @@ rule C_COMPILER__STM32_NUCLEO_LL_Project_LCD_22_02_2025_unscanned_Release
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__STM32_NUCLEO_LL_Project_LCD_22_02_2025_Release
+rule C_EXECUTABLE_LINKER__STM32_template_proj_Release
   command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && C:\ST\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe -fdata-sections -ffunction-sections --specs=nano.specs -Wl,--gc-sections $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
@@ -52,7 +52,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\ST\STM32CubeCLT_1.16.0\CMake\bin\cmake.exe --regenerate-during-build -SC:\Users\nace\OneDrive\Desktop\STM32\Projects_nace\NUCLEO_LL_Project_LCD\STM32_NUCLEO_LL_Project_LCD_22_02_2025 -BC:\Users\nace\OneDrive\Desktop\STM32\Projects_nace\NUCLEO_LL_Project_LCD\STM32_NUCLEO_LL_Project_LCD_22_02_2025\build\Release
+  command = C:\ST\STM32CubeCLT_1.16.0\CMake\bin\cmake.exe --regenerate-during-build -SC:\Users\nace\OneDrive\Desktop\STM32\Projects_nace\NUCLEO_LL_Project_LCD\STM32_template_proj -BC:\Users\nace\OneDrive\Desktop\STM32\Projects_nace\NUCLEO_LL_Project_LCD\STM32_template_proj\build\Release
   description = Re-running CMake...
   generator = 1
 

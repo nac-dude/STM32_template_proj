@@ -27,7 +27,7 @@ message("Build type: "              ${CMAKE_BUILD_TYPE})
 #
 # Core project settings
 #
-project(STM32_NUCLEO_LL_Project_LCD_22_02_2025)          # Modified
+project(STM32_template_proj)          # Modified
 enable_language(C CXX ASM)
 
 

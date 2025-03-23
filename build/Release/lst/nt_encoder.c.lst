@@ -14,7 +14,7 @@
   14              		.text
   15              	.Ltext0:
   16              		.cfi_sections	.debug_frame
-  17              		.file 1 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_
+  17              		.file 1 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_p
   18              		.section	.text.nt_EncoderPinInit,"ax",%progbits
   19              		.align	1
   20              		.global	nt_EncoderPinInit
@@ -23,34 +23,34 @@
   23              		.thumb_func
   25              	nt_EncoderPinInit:
   26              	.LFB127:
-   1:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** #include <stdint.h>
-   2:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
-   3:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** #include "stm32f103xb.h"
-   4:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** #include "stm32f1xx_ll_gpio.h"
-   5:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
-   6:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** #include "lwprintf/lwprintf.h"
-   7:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
-   8:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** #include "nt_pins.h"
-   9:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** #include "nt_time.h"
-  10:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** #include "nt_gpio.h"
-  11:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
-  12:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** #include "nt_encoder.h"
-  13:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** #include "nt_debounce.h"
-  14:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
-  15:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** extern nt_PinDefStruct_t pin_encoder1_A;
-  16:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** extern nt_PinDefStruct_t pin_encoder1_B;
-  17:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** extern nt_PinDefStruct_t pin_encoder2_A;
-  18:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** extern nt_PinDefStruct_t pin_encoder2_B;
-  19:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
-  20:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** static uint8_t enc_state; /*these vars are not visible outside of this file(module)*/
-  21:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** static int8_t indent_value; 
-  22:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
-  23:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** static int8_t enc_state_current; 
-  24:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** //static uint8_t state_last; /*declaration of var state_last*/
-  25:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
-  26:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
-  27:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** void nt_EncoderPinInit(void)
-  28:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** {
+   1:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** #include <stdint.h>
+   2:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
+   3:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** #include "stm32f103xb.h"
+   4:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** #include "stm32f1xx_ll_gpio.h"
+   5:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
+   6:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** #include "lwprintf/lwprintf.h"
+   7:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
+   8:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** #include "nt_pins.h"
+   9:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** #include "nt_time.h"
+  10:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** #include "nt_gpio.h"
+  11:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
+  12:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** #include "nt_encoder.h"
+  13:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** #include "nt_debounce.h"
+  14:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
+  15:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** extern nt_PinDefStruct_t pin_encoder1_A;
+  16:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** extern nt_PinDefStruct_t pin_encoder1_B;
+  17:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** extern nt_PinDefStruct_t pin_encoder2_A;
+  18:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** extern nt_PinDefStruct_t pin_encoder2_B;
+  19:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
+  20:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** static uint8_t enc_state; /*these vars are not visible outside of this file(module)*/
+  21:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** static int8_t indent_value; 
+  22:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
+  23:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** static int8_t enc_state_current; 
+  24:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** //static uint8_t state_last; /*declaration of var state_last*/
+  25:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
+  26:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
+  27:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** void nt_EncoderPinInit(void)
+  28:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** {
   27              		.loc 1 28 1 view -0
   28              		.cfi_startproc
   29              		@ args = 0, pretend = 0, frame = 0
@@ -62,7 +62,7 @@
   35              		.cfi_offset 14, -4
   36 0002 83B0     		sub	sp, sp, #12
   37              		.cfi_def_cfa_offset 24
-  29:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c ****   nt_gpioPinInit(&pin_encoder1_A, PIN_ENC1_A);
+  29:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c ****   nt_gpioPinInit(&pin_encoder1_A, PIN_ENC1_A);
   38              		.loc 1 29 3 view .LVU1
   39 0004 104C     		ldr	r4, .L3
   40 0006 0125     		movs	r5, #1
@@ -73,7 +73,7 @@
   45 0010 0F48     		ldr	r0, .L3+8
   46 0012 FFF7FEFF 		bl	nt_gpioPinInit
   47              	.LVL0:
-  30:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c ****   nt_gpioPinInit(&pin_encoder1_B, PIN_ENC1_B);
+  30:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c ****   nt_gpioPinInit(&pin_encoder1_B, PIN_ENC1_B);
   48              		.loc 1 30 3 view .LVU2
   49 0016 0095     		str	r5, [sp]
   50 0018 0823     		movs	r3, #8
@@ -82,7 +82,7 @@
   53 001e 0E48     		ldr	r0, .L3+16
   54 0020 FFF7FEFF 		bl	nt_gpioPinInit
   55              	.LVL1:
-  31:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c ****   nt_gpioPinInit(&pin_encoder2_A, PIN_ENC2_A);
+  31:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c ****   nt_gpioPinInit(&pin_encoder2_A, PIN_ENC2_A);
   56              		.loc 1 31 3 view .LVU3
   57 0024 0095     		str	r5, [sp]
   58 0026 0823     		movs	r3, #8
@@ -91,7 +91,7 @@
   61 002e 0B48     		ldr	r0, .L3+20
   62 0030 FFF7FEFF 		bl	nt_gpioPinInit
   63              	.LVL2:
-  32:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c ****   nt_gpioPinInit(&pin_encoder2_B, PIN_ENC2_B);
+  32:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c ****   nt_gpioPinInit(&pin_encoder2_B, PIN_ENC2_B);
   64              		.loc 1 32 3 view .LVU4
   65 0034 0095     		str	r5, [sp]
   66 0036 0823     		movs	r3, #8
@@ -100,7 +100,7 @@
   69 003c 0948     		ldr	r0, .L3+28
   70 003e FFF7FEFF 		bl	nt_gpioPinInit
   71              	.LVL3:
-  33:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** }
+  33:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** }
   72              		.loc 1 33 1 is_stmt 0 view .LVU5
   73 0042 03B0     		add	sp, sp, #12
   74              		.cfi_def_cfa_offset 12
@@ -128,9 +128,9 @@
   98              	nt_EncoderPinState:
   99              	.LVL4:
  100              	.LFB128:
-  34:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
-  35:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** uint8_t nt_EncoderPinState(EncoderPinDef_t* encoder)
-  36:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** {
+  34:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
+  35:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** uint8_t nt_EncoderPinState(EncoderPinDef_t* encoder)
+  36:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** {
  101              		.loc 1 36 1 is_stmt 1 view -0
  102              		.cfi_startproc
  103              		@ args = 0, pretend = 0, frame = 0
@@ -143,8 +143,8 @@
  110              		.cfi_offset 5, -8
  111              		.cfi_offset 14, -4
  112 0002 0546     		mov	r5, r0
-  37:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c ****   //tule se uporabi nt_debounceBtn(); namesto nt_readPin()
-  38:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c ****   uint8_t enc_A = nt_readPin(encoder->btn_enc_A->pin_args->pin);
+  37:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c ****   //tule se uporabi nt_debounceBtn(); namesto nt_readPin()
+  38:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c ****   uint8_t enc_A = nt_readPin(encoder->btn_enc_A->pin_args->pin);
  113              		.loc 1 38 3 is_stmt 1 view .LVU8
  114              		.loc 1 38 37 is_stmt 0 view .LVU9
  115 0004 0368     		ldr	r3, [r0]
@@ -158,7 +158,7 @@
  123              	.LVL6:
  124 000e 0446     		mov	r4, r0
  125              	.LVL7:
-  39:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c ****   uint8_t enc_B = nt_readPin(encoder->btn_enc_B->pin_args->pin);
+  39:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c ****   uint8_t enc_B = nt_readPin(encoder->btn_enc_B->pin_args->pin);
  126              		.loc 1 39 3 is_stmt 1 view .LVU13
  127              		.loc 1 39 37 is_stmt 0 view .LVU14
  128 0010 6B68     		ldr	r3, [r5, #4]
@@ -168,13 +168,13 @@
  132 0014 1868     		ldr	r0, [r3]
  133 0016 FFF7FEFF 		bl	nt_readPin
  134              	.LVL8:
-  40:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
-  41:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c ****     return ((enc_B << 1)|enc_A); 
+  40:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
+  41:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c ****     return ((enc_B << 1)|enc_A); 
  135              		.loc 1 41 5 is_stmt 1 view .LVU17
  136              		.loc 1 41 25 is_stmt 0 view .LVU18
  137 001a 44EA4000 		orr	r0, r4, r0, lsl #1
  138              	.LVL9:
-  42:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** }
+  42:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** }
  139              		.loc 1 42 1 view .LVU19
  140 001e C0B2     		uxtb	r0, r0
  141 0020 38BD     		pop	{r3, r4, r5, pc}
@@ -190,10 +190,10 @@
  153              	nt_EncoderRead:
  154              	.LVL10:
  155              	.LFB129:
-  43:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
-  44:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
-  45:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** int8_t nt_EncoderRead(EncoderPinDef_t* encoder)
-  46:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** {
+  43:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
+  44:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
+  45:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** int8_t nt_EncoderRead(EncoderPinDef_t* encoder)
+  46:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** {
  156              		.loc 1 46 1 is_stmt 1 view -0
  157              		.cfi_startproc
  158              		@ args = 0, pretend = 0, frame = 0
@@ -204,7 +204,7 @@
  163              		.cfi_offset 4, -8
  164              		.cfi_offset 14, -4
  165 0002 0446     		mov	r4, r0
-  47:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 	enc_state_current = nt_EncoderPinState(encoder);
+  47:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 	enc_state_current = nt_EncoderPinState(encoder);
  166              		.loc 1 47 2 is_stmt 1 view .LVU23
  167              		.loc 1 47 22 is_stmt 0 view .LVU24
  168 0004 FFF7FEFF 		bl	nt_EncoderPinState
@@ -214,104 +214,104 @@
  172              		.loc 1 47 20 view .LVU26
  173 000a 2A4B     		ldr	r3, .L31
  174 000c 1870     		strb	r0, [r3]
-  48:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
-  49:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 	if (enc_state_current != encoder -> state_last)
+  48:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
+  49:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 	if (enc_state_current != encoder -> state_last)
  175              		.loc 1 49 2 is_stmt 1 view .LVU27
  176              		.loc 1 49 35 is_stmt 0 view .LVU28
  177 000e 237A     		ldrb	r3, [r4, #8]	@ zero_extendqisi2
  178              		.loc 1 49 5 view .LVU29
  179 0010 9842     		cmp	r0, r3
  180 0012 01D1     		bne	.L28
-  50:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 		{
-  51:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 			int8_t dir = 0;
-  52:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 			enc_state = nt_EncoderPinState(encoder);
-  53:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
-  54:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 			switch(encoder -> state_last)
-  55:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 				{
-  56:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 					case 0:
-  57:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 						switch (enc_state)
-  58:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 						{
-  59:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 							case 0: { break; }
-  60:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 							case 1: { dir = +1; break; }
-  61:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 							case 2: { dir = -1; break; }
-  62:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 							case 3: { break; }
-  63:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 						}
-  64:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 						break;
-  65:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 					case 1:
-  66:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 						switch (enc_state)
-  67:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 						{
-  68:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 							case 0: { dir = -1; break; }
-  69:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 							case 1: { break; }
-  70:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 							case 2: { break; }
-  71:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 							case 3: { dir = +1; break; }
-  72:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 						}
-  73:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 						break;
-  74:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 					case 2:
-  75:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 						switch (enc_state)
-  76:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 						{
-  77:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 							case 0: { dir = +1; break; }
-  78:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 							case 1: { break; }
-  79:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 							case 2: { break; }
-  80:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 							case 3: { dir = -1; break; }
-  81:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 						}
-  82:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 						break;
-  83:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 					case 3:
-  84:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 						switch (enc_state)
-  85:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 						{
-  86:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 							case 0: { break; }
-  87:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 							case 1: { dir = -1; break; }
-  88:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 							case 2: { dir = +1; break; }
-  89:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 							case 3: { break; }
-  90:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 						}
-  91:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 						break;
-  92:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 				}
-  93:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
-  94:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
-  95:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 				encoder -> state_last = enc_state;
-  96:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 				indent_value += dir;
-  97:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 				
-  98:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 				if (indent_value >= 4 || indent_value <= -4 )
-  99:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 				{
- 100:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 					int8_t val = indent_value;
- 101:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 					val = (val/4);
- 102:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
- 103:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 					//lwprintf_printf("Inside indent value %d\r\n", val);
- 104:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 					
- 105:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 					indent_value = 0;
- 106:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 					return (val);
- 107:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 				}
- 108:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 		
- 109:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 		}
- 110:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 		return 0;
+  50:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 		{
+  51:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 			int8_t dir = 0;
+  52:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 			enc_state = nt_EncoderPinState(encoder);
+  53:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
+  54:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 			switch(encoder -> state_last)
+  55:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 				{
+  56:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 					case 0:
+  57:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 						switch (enc_state)
+  58:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 						{
+  59:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 							case 0: { break; }
+  60:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 							case 1: { dir = +1; break; }
+  61:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 							case 2: { dir = -1; break; }
+  62:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 							case 3: { break; }
+  63:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 						}
+  64:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 						break;
+  65:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 					case 1:
+  66:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 						switch (enc_state)
+  67:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 						{
+  68:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 							case 0: { dir = -1; break; }
+  69:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 							case 1: { break; }
+  70:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 							case 2: { break; }
+  71:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 							case 3: { dir = +1; break; }
+  72:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 						}
+  73:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 						break;
+  74:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 					case 2:
+  75:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 						switch (enc_state)
+  76:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 						{
+  77:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 							case 0: { dir = +1; break; }
+  78:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 							case 1: { break; }
+  79:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 							case 2: { break; }
+  80:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 							case 3: { dir = -1; break; }
+  81:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 						}
+  82:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 						break;
+  83:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 					case 3:
+  84:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 						switch (enc_state)
+  85:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 						{
+  86:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 							case 0: { break; }
+  87:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 							case 1: { dir = -1; break; }
+  88:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 							case 2: { dir = +1; break; }
+  89:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 							case 3: { break; }
+  90:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 						}
+  91:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 						break;
+  92:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 				}
+  93:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
+  94:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
+  95:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 				encoder -> state_last = enc_state;
+  96:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 				indent_value += dir;
+  97:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 				
+  98:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 				if (indent_value >= 4 || indent_value <= -4 )
+  99:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 				{
+ 100:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 					int8_t val = indent_value;
+ 101:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 					val = (val/4);
+ 102:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
+ 103:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 					//lwprintf_printf("Inside indent value %d\r\n", val);
+ 104:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 					
+ 105:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 					indent_value = 0;
+ 106:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 					return (val);
+ 107:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 				}
+ 108:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 		
+ 109:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 		}
+ 110:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 		return 0;
  181              		.loc 1 110 10 view .LVU30
  182 0014 0020     		movs	r0, #0
  183              	.L8:
- 111:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
- 112:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** }
+ 111:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
+ 112:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** }
  184              		.loc 1 112 1 view .LVU31
  185 0016 10BD     		pop	{r4, pc}
  186              	.LVL12:
  187              	.L28:
  188              	.LBB2:
-  51:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 			enc_state = nt_EncoderPinState(encoder);
+  51:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 			enc_state = nt_EncoderPinState(encoder);
  189              		.loc 1 51 4 is_stmt 1 view .LVU32
-  52:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
+  52:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
  190              		.loc 1 52 4 view .LVU33
-  52:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
+  52:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
  191              		.loc 1 52 16 is_stmt 0 view .LVU34
  192 0018 2046     		mov	r0, r4
  193 001a FFF7FEFF 		bl	nt_EncoderPinState
  194              	.LVL13:
-  52:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
+  52:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
  195              		.loc 1 52 14 view .LVU35
  196 001e 264B     		ldr	r3, .L31+4
  197 0020 1870     		strb	r0, [r3]
-  54:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 				{
+  54:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 				{
  198              		.loc 1 54 4 is_stmt 1 view .LVU36
-  54:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 				{
+  54:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 				{
  199              		.loc 1 54 19 is_stmt 0 view .LVU37
  200 0022 237A     		ldrb	r3, [r4, #8]	@ zero_extendqisi2
-  54:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 				{
+  54:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 				{
  201              		.loc 1 54 4 view .LVU38
  202 0024 032B     		cmp	r3, #3
  203 0026 27D8     		bhi	.L17
@@ -323,90 +323,90 @@
  209 002f 20       		.byte	(.L10-.L11)/2
  210              		.p2align 1
  211              	.L14:
-  57:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 						{
+  57:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 						{
  212              		.loc 1 57 7 is_stmt 1 view .LVU39
  213 0030 0128     		cmp	r0, #1
  214 0032 23D0     		beq	.L18
  215 0034 0228     		cmp	r0, #2
  216 0036 23D1     		bne	.L19
-  61:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 							case 3: { break; }
+  61:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 							case 3: { break; }
  217              		.loc 1 61 22 is_stmt 0 view .LVU40
  218 0038 4FF0FF32 		mov	r2, #-1
  219              	.L9:
  220              	.LVL14:
-  95:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 				indent_value += dir;
+  95:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 				indent_value += dir;
  221              		.loc 1 95 5 is_stmt 1 view .LVU41
-  95:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 				indent_value += dir;
+  95:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 				indent_value += dir;
  222              		.loc 1 95 27 is_stmt 0 view .LVU42
  223 003c 2072     		strb	r0, [r4, #8]
-  96:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 				
+  96:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 				
  224              		.loc 1 96 5 is_stmt 1 view .LVU43
-  96:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 				
+  96:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 				
  225              		.loc 1 96 18 is_stmt 0 view .LVU44
  226 003e 1F49     		ldr	r1, .L31+8
  227 0040 0B78     		ldrb	r3, [r1]	@ zero_extendqisi2
  228 0042 1344     		add	r3, r3, r2
  229 0044 DAB2     		uxtb	r2, r3
  230              	.LVL15:
-  96:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 				
+  96:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 				
  231              		.loc 1 96 18 view .LVU45
  232 0046 5BB2     		sxtb	r3, r3
  233 0048 0B70     		strb	r3, [r1]
-  98:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 				{
+  98:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 				{
  234              		.loc 1 98 5 is_stmt 1 view .LVU46
-  98:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 				{
+  98:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 				{
  235              		.loc 1 98 27 is_stmt 0 view .LVU47
  236 004a 0332     		adds	r2, r2, #3
  237 004c D2B2     		uxtb	r2, r2
-  98:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 				{
+  98:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 				{
  238              		.loc 1 98 8 view .LVU48
  239 004e 062A     		cmp	r2, #6
  240 0050 26D8     		bhi	.L29
  241              	.LBE2:
- 110:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
+ 110:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
  242              		.loc 1 110 10 view .LVU49
  243 0052 0020     		movs	r0, #0
  244 0054 DFE7     		b	.L8
  245              	.LVL16:
  246              	.L13:
  247              	.LBB4:
-  66:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 						{
+  66:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 						{
  248              		.loc 1 66 7 is_stmt 1 view .LVU50
  249 0056 A8B1     		cbz	r0, .L20
  250 0058 0328     		cmp	r0, #3
  251 005a 16D1     		bne	.L21
-  71:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 						}
+  71:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 						}
  252              		.loc 1 71 22 is_stmt 0 view .LVU51
  253 005c 0122     		movs	r2, #1
  254 005e EDE7     		b	.L9
  255              	.L12:
-  75:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 						{
+  75:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 						{
  256              		.loc 1 75 7 is_stmt 1 view .LVU52
  257 0060 A8B1     		cbz	r0, .L22
  258 0062 0328     		cmp	r0, #3
  259 0064 15D1     		bne	.L23
-  80:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 						}
+  80:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 						}
  260              		.loc 1 80 22 is_stmt 0 view .LVU53
  261 0066 4FF0FF32 		mov	r2, #-1
  262 006a E7E7     		b	.L9
  263              	.L10:
-  84:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 						{
+  84:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 						{
  264              		.loc 1 84 7 is_stmt 1 view .LVU54
  265 006c 0128     		cmp	r0, #1
  266 006e 12D0     		beq	.L24
  267 0070 0228     		cmp	r0, #2
  268 0072 13D1     		bne	.L25
-  88:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 							case 3: { break; }
+  88:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 							case 3: { break; }
  269              		.loc 1 88 22 is_stmt 0 view .LVU55
  270 0074 0122     		movs	r2, #1
  271 0076 E1E7     		b	.L9
  272              	.L17:
-  54:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 				{
+  54:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 				{
  273              		.loc 1 54 4 view .LVU56
  274 0078 0022     		movs	r2, #0
  275 007a DFE7     		b	.L9
  276              	.L18:
-  60:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 							case 2: { dir = -1; break; }
+  60:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 							case 2: { dir = -1; break; }
  277              		.loc 1 60 22 view .LVU57
  278 007c 0122     		movs	r2, #1
  279 007e DDE7     		b	.L9
@@ -414,7 +414,7 @@
  281 0080 0022     		movs	r2, #0
  282 0082 DBE7     		b	.L9
  283              	.L20:
-  68:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 							case 1: { break; }
+  68:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 							case 1: { break; }
  284              		.loc 1 68 22 view .LVU58
  285 0084 4FF0FF32 		mov	r2, #-1
  286 0088 D8E7     		b	.L9
@@ -422,7 +422,7 @@
  288 008a 0022     		movs	r2, #0
  289 008c D6E7     		b	.L9
  290              	.L22:
-  77:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 							case 1: { break; }
+  77:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 							case 1: { break; }
  291              		.loc 1 77 22 view .LVU59
  292 008e 0122     		movs	r2, #1
  293 0090 D4E7     		b	.L9
@@ -430,7 +430,7 @@
  295 0092 0022     		movs	r2, #0
  296 0094 D2E7     		b	.L9
  297              	.L24:
-  87:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 							case 2: { dir = +1; break; }
+  87:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 							case 2: { dir = +1; break; }
  298              		.loc 1 87 22 view .LVU60
  299 0096 4FF0FF32 		mov	r2, #-1
  300 009a CFE7     		b	.L9
@@ -440,35 +440,35 @@
  304              	.LVL17:
  305              	.L29:
  306              	.LBB3:
- 100:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 					val = (val/4);
+ 100:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 					val = (val/4);
  307              		.loc 1 100 6 is_stmt 1 view .LVU61
- 101:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
+ 101:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
  308              		.loc 1 101 6 view .LVU62
- 101:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
+ 101:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
  309              		.loc 1 101 10 is_stmt 0 view .LVU63
  310 00a0 1846     		mov	r0, r3
  311 00a2 002B     		cmp	r3, #0
  312 00a4 04DB     		blt	.L30
  313              	.L15:
- 101:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
+ 101:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
  314              		.loc 1 101 10 view .LVU64
  315 00a6 8010     		asrs	r0, r0, #2
  316              	.LVL18:
- 105:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 					return (val);
+ 105:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 					return (val);
  317              		.loc 1 105 6 is_stmt 1 view .LVU65
- 105:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 					return (val);
+ 105:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 					return (val);
  318              		.loc 1 105 19 is_stmt 0 view .LVU66
  319 00a8 044B     		ldr	r3, .L31+8
  320 00aa 0022     		movs	r2, #0
  321 00ac 1A70     		strb	r2, [r3]
- 106:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 				}
+ 106:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 				}
  322              		.loc 1 106 6 is_stmt 1 view .LVU67
- 106:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 				}
+ 106:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 				}
  323              		.loc 1 106 13 is_stmt 0 view .LVU68
  324 00ae B2E7     		b	.L8
  325              	.LVL19:
  326              	.L30:
- 101:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_Project_LCD_22_02_2025/Core/Src\nt_encoder.c **** 
+ 101:C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_proj/Core/Src\nt_encoder.c **** 
  327              		.loc 1 101 10 view .LVU69
  328 00b0 D81C     		adds	r0, r3, #3
  329 00b2 F8E7     		b	.L15
@@ -495,7 +495,7 @@
  357              	.Letext0:
  358              		.file 2 "C:\\ST\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/..
  359              		.file 3 "C:\\ST\\STM32CubeCLT_1.16.0\\GNU-tools-for-STM32\\bin\\../lib/gcc/arm-none-eabi/12.3.1/..
- 360              		.file 4 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_
- 361              		.file 5 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_
- 362              		.file 6 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_
- 363              		.file 7 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_NUCLEO_LL_
+ 360              		.file 4 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_p
+ 361              		.file 5 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_p
+ 362              		.file 6 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_p
+ 363              		.file 7 "C:/Users/nace/OneDrive/Desktop/STM32/Projects_nace/NUCLEO_LL_Project_LCD/STM32_template_p
